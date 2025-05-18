@@ -1,0 +1,154 @@
+@font-face {font-family: "Sofia Pro Black"; src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot"); src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff") format("woff"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.svg#Sofia Pro Black") format("svg"); }
+
+.banner-container{
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+.left-container{
+    background-color: #f86c2c;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.right-container{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* margin-top: 4vh; */
+}
+.top-quote{
+    color: white;
+    position: relative;
+    top: 9%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+    padding: 2%;
+}
+.mid-quote{
+    color: white;
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+}
+.bot-quote{
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
+    padding: 1%;
+}
+.left-quote{
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 3vh;
+}
+.center-quote{
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+}
+.right-quote{
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    font-size: 3vh;
+}
+.b-item-img {
+    width: 35vh;
+    /* min-height: 200px; */
+}
+@media screen and (max-width: 1400px){
+    .b-item-img {
+        max-width: 35vh;
+    }
+}
+@media screen and (max-width: 1000px){
+    .b-item-img {
+        max-width: 30vh;
+    }
+}
+@media screen and (max-width: 800px){
+    .b-item-img {
+        max-width: 25vh;
+    }
+}
+.b-item-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-item-text {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    opacity: 1;
+}
+.swiper {
+    padding: 60px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    margin: 40px 0px;
+    padding: 60px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    opacity: 0.5;
+    height: 100%;
+    width: auto;
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    transition: all 0.6s ease;
+    min-width: 200px !important;
+}
+.banner-swiper{
+    position: relative;
+    bottom: 0%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #f86c2c;
+}
+.swiper-slide.swiper-slide-prev {
+    transform: translateX(5%);
+}
+
+.swiper-slide.swiper-slide-next {
+    transform: translateX(-5%);
+}
+.swiper-slide-active {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.4);
+}
+.banner-swiper-pagination-bullet-active {
+    background-color: #f86c2c;
+}
+.swiper-pagination-bullet {
+      border: 2px solid #f86c2c      ;
+      width: 1rem;
+      height: 1rem;
+      border-radius: .5rem;
+      opacity: 1;
+  }

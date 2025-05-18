@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+/* section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+.product{
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: -2;
+
+}
+.product-section{
+    background-image: url("../assets/homePage/background-desktop-section.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; 
+    height: 668px;
+}
+.product-promot{
+    display: block;
+    width: 290px;
+    height: 396px;
+    position:absolute;
+    top: 12%;
+    left: calc((100%-290px)/2);
+    z-index: 30;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../assets/homePage/pepsi-pepsi-cola-logo-desktop.png");
+}
+.product-soda{
+    background-image: url("../assets//homePage/cream-soda.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 484.6px;
+    height: 554.3px;
+    left: -5.4px;
+    bottom:  14.1px;
+}
+.product-cherry{
+    background-image: url("../assets//homePage/black-cherry.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 482.1px;
+    height: 515.3px;
+    right: -6.4px;
+    bottom: 14.1px;
+} */

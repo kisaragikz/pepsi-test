@@ -1,0 +1,98 @@
+
+.cardItem{
+    position: relative;
+    width:  260px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin-bottom: 2vw;
+}
+
+.cardItem:hover{
+    background: rgb(214, 214, 214);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.cardItem .imgBx{
+    position: relative;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    z-index: 1;
+}
+.cardItem .imgBx img{
+    margin-left: 5vw;
+    max-width: 60px;
+    transition: 0.3;
+}
+.cardItem .contentBx h3{
+    font-size: 20px;
+    cursor:pointer;
+    margin-top: 0;
+    margin-bottom: 3px;
+    transition: 0.3s;
+
+}
+.price{
+    color: #5e5e5e;
+}
+.cardItem.contentBx .price{
+    color: #EB6440;
+    
+
+}
+.cardItem .contentBx{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.cardItem .contentBx .buy{
+    --h: 1.2em;   /* the height */
+    font-size: 20px;
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+      0 var(--_t,var(--h)) #fff,
+      0 0 var(--_c,#000);
+    background: 
+      linear-gradient(#EB6440 0 0) 
+      bottom/100% var(--_d, 0) no-repeat;
+      
+    
+}
+
+.cardItem:hover .contentBx .buy{
+    
+    cursor: pointer;
+    text-align: center;
+    
+    align-items: center;
+    width: 120px;
+    --_d: 100%;
+    --_t: 0;
+    --_c: #0000;
+    
+}
+
+.buy{
+    text-decoration: none;
+    padding: 5px;
+}
+.contentBx h3, .contentBx a{
+    margin: 5px;
+}
+.contentBx p{
+    margin-bottom: 0;
+}

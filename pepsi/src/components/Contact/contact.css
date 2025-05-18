@@ -1,0 +1,80 @@
+.contact-container{
+    width: 100%;
+    height: 100%;
+    background-color: #f86c2c;
+    position: absolute;
+}
+body{
+    height: 0;
+}
+.c-icon {
+    width: 40px;
+    padding: 5px;
+    /* margin-top: 10px;
+    margin-left: 5px; */
+}
+.c-icon-hover {
+    width: 40px;
+    padding: 5px;
+    /* margin-top: 10px;
+    margin-lef
+    t: 5px; */
+}
+.facebook {
+    display: inline-block;
+    position: relative;
+}
+.facebook .c-icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.facebook:hover .c-icon-hover {
+    display: inline;
+}
+.instagram {
+    display: inline-block;
+    position: relative;
+}
+.instagram .c-icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.instagram:hover .c-icon-hover {
+    display: inline;
+}
+.github:hover .c-icon-hover {
+    display: inline;
+}
+.github {
+    display: inline-block;
+    position: relative;
+}
+.github .c-icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.github:hover .c-icon-hover {
+    display: inline;
+}
+.c-box{
+    width: 40%;
+    height: fit-content;
+    margin: 3vh;
+    top: 11%;
+    background-color: white;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 100px;
+}

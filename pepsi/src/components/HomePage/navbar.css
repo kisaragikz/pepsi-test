@@ -1,0 +1,166 @@
+@font-face {font-family: "Sofia Pro Black"; src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot"); src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff") format("woff"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.svg#Sofia Pro Black") format("svg"); }
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar-right ul{
+    margin: 0;
+    padding: 5px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    text-transform:uppercase;
+    background-color: #1e1e1e ;
+    color: white;
+    z-index: 100;
+}
+.navbar ul{
+    align-items: center;
+    text-transform:uppercase;
+}
+
+.navbar-item{
+    margin-left: 1.5vw;
+    cursor: pointer;
+
+}
+.navbar-right div {
+	border: 0;
+	border-radius: 30px;
+	display: inline-block;
+	overflow: hidden;
+	transition: all 0.4s cubic-bezier(.86, .01, .15, .99);
+    cursor: pointer;
+}
+.navbar-right div:before {
+    content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.navbar-right div.gradient:hover {
+    color: white;
+	box-shadow: 0 5px 7px rgba(245, 116, 14, 0.5);
+	transform: translateY(-2px);
+}
+.navbar-right .navbar-item{
+    border-radius: 30px;
+    border: 2px solid #f86c2c;
+    padding: 5px 25px;
+    -webkit-transform: perspective(1px) translateZ(0);
+	background: #1e1e1e;
+	transform: perspective(1px) translateZ(0);
+	position: relative;
+	transition-timing-function: cubic-bezier(.86, .01, .15, .99);
+	transition-duration: 0.2s;
+}
+.navbar-right .navbar-item:before {
+	background: linear-gradient(to bottom, #f86c2c, #1e1e1e);
+	transform: scaleY(0);
+	transform-origin: 0% 0%;
+	transition: 0.2s cubic-bezier(.86, .01, .15, .99);
+}
+
+.navbar-right .navbar-item:hover:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+/* .navbar-right .navbar-item:hover{
+    background-color: rgba(245, 116, 14, 0.9);
+} */
+.navbar-left .navbar-item{
+    font-size: 24px;
+    border-radius: 30px;
+    /* background-color: #9388ff; */
+    padding: 5px 25px;
+}
+.navbar-left a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-right a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-right .navbar-item{
+        border-radius: 30px;
+        border: 0px;
+        padding: 5px 25px;
+    }
+    .navbar-right .navbar-item:hover{
+        background-color: #1e1e1e;
+    }
+}
+.uiPeple{
+    cursor: pointer;
+    margin-top: -6px;
+    transition: 0.4s;
+}
+.uiPeple:hover{
+   transform: scale(1.2);
+}
+/* .navbar-center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.navbar-center a{
+    text-decoration: none;
+    color:white;
+} */
+/* .navbar-item-img:hover{
+    animation: spin 0.4s linear alternate;
+}
+@keyframes spin {
+    50% {
+        transform: rotate(420deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+/* .toggle-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar, #checkbox{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+} */
+/* .burger {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+.burger-in {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #eee;
+    border-radius: 10px;
+} */

@@ -1,0 +1,25 @@
+.vdo-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f86c2c;
+}
+.vdo{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+}
+.control {
+    cursor:pointer;
+    padding: 10px 20px;
+    background:white;
+    color: #f86c2c;
+    border-radius: 5vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }

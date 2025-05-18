@@ -1,0 +1,135 @@
+@font-face {font-family: "Sofia Pro Black"; src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot"); src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff") format("woff"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.svg#Sofia Pro Black") format("svg"); }
+
+
+.footer-container{
+    display: flex;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif ;
+    width: 100%;
+    height: 20vh;
+    background-color: white ;
+    color: #c3c3c3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-header {
+    color: #f86c2c;
+}
+.icon {
+    width: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+.footer-centerbottom {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.footer-services {
+    margin-left: 10px;
+}
+.footer-services:hover {
+    color: #f86c2c;
+    cursor: pointer;
+}
+.hovercolor{
+    text-decoration: none;
+    color: #c3c3c3;
+    margin: 5px;
+}
+.hovercolor:hover {
+    color: #f86c2c;
+    cursor: pointer;
+}
+.icon-hover {
+    width: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    /* border-radius: 30px; */
+}
+.youtube {
+    display: inline-block;
+    position: relative;
+}
+.youtube .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.youtube:hover .icon-hover {
+    display: inline;
+}
+.facebook {
+    display: inline-block;
+    position: relative;
+}
+.facebook .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.facebook:hover .icon-hover {
+    display: inline;
+}
+.twitter {
+    display: inline-block;
+    position: relative;
+}
+.twitter .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.twitter:hover .icon-hover {
+    display: inline;
+}
+.instagram {
+    display: inline-block;
+    position: relative;
+}
+.instagram .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.instagram:hover .icon-hover {
+    display: inline;
+}
+.discord {
+    display: inline-block;
+    position: relative;
+}
+.discord .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.discord:hover .icon-hover {
+    display: inline;
+}
+.tiktok {
+    display: inline-block;
+    position: relative;
+}
+.tiktok .icon-hover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+}
+.tiktok:hover .icon-hover {
+    display: inline;
+}

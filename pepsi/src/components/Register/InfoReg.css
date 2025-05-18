@@ -1,0 +1,88 @@
+.username {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background: #fff;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 10px 1px #3d2c23;
+    border-radius: 10px;
+    scale: 1.2;
+}
+.ref-page::before{
+    content: "";
+    background-image: url('../Logincpn/login-background.png');
+    background-size: 600px;
+    background-position: center;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+.username h1 {
+    margin: 20px 40px;
+    color: #F86C2C;
+    font-size: 40px;
+    background: linear-gradient(to right, #BB3B00 , #F86C2C);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.setm {
+    padding: 5px 40px;
+    
+}
+
+.setm p{
+    margin: 4px 0px 10px 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.setm input{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0.1px 0.1px 5px 0.1px black;
+    transition: all 0.2s;
+    background: url('/public/svghh.svg') bottom;
+    background-size: cover;
+    font-size: 20px;
+    outline-color: #db8d69
+}
+
+.setm input:focus{
+    scale: 1.03;
+}
+
+.a-reg {
+    font-size: 25px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to right, #BB3B00 , #F86C2C) ;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.a-reg:hover {
+    scale: 1.03;
+}
+
+@media only screen and (max-width: 500px) {
+    .username {
+        width: 350px;
+        height: 500px;
+    }
+}

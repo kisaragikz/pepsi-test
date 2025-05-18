@@ -1,0 +1,60 @@
+.testvdo-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f86c2c;
+}
+.testvdo{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 75%;
+}
+
+.testoverlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.testcontent {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+.testcontent h1 {
+    font-size: 12rem;
+    margin-bottom: 1rem;
+  }
+  
+.testcontent p {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+  
+.testbutton {
+    height: 64px;
+    padding: 0rem 3rem;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.testbutton:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }

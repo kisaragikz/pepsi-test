@@ -1,0 +1,13 @@
+body{
+    height: 1000px;
+
+}
+.Show-itembox{
+    width: 800px;
+    height:1000px;
+    
+}
+.ali-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

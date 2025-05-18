@@ -1,0 +1,132 @@
+
+.detail-body{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.detail-body::before{
+    content: "";
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/393/892/original/water-splash-slow-motion-with-droplets-on-black-background-free-video.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+    animation:backgroundAnimation .8s;
+}
+.detail-background{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    animation:backgroundAnimation .8s;
+}
+@keyframes  backgroundAnimation{
+    0%{transform: translateY(-100vw);opacity: 0;}
+    100%{transform: translateY(0vw);opacity: 1;}
+}
+.detail-container{
+    padding:240px 0px;
+    position:relative;
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    animation:backgroundAnimation 1s;
+}
+.detail-container .detail-left{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+.detail-container .detail-left h1{
+    font-size: 72px;
+}
+.detail-container .detail-item-box{
+    margin: 20px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: rgba(255, 255, 255, 0.301);
+    width: 150px;
+    height: 150px;
+}
+.detail-container .detail-item-box:hover{
+    background: rgba(255, 255, 255, 0.397);
+}
+.detail-item-box{
+    text-align: center;
+    line-height: 15px;
+}
+.detail-item-box p{
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+}
+.detail-left-footer {
+    margin: 20px 0 0 0;
+}
+.detail-left-footer p{
+    margin: 0;
+}
+.detail-right{
+    margin-left: 20px;
+}
+.detail-img{
+    width:300px;
+}
+.detail-left .detail-navbar{
+    text-decoration: none;
+    padding: 7px 0;
+    margin: 40px 0;
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
+}
+.detail-left .detail-navbar:hover{
+    background: white;
+}
+
+.previousPage{
+    position: absolute;
+    margin-top: 300px;
+    left:25px;
+    height: 23px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    background: url("../ProductDetail/img_products/left_arrow.png");
+    background-size: cover;
+    background-position: center;
+    animation:objectAnimation 1.3s .5s backwards;
+    
+}
+
+.nextPage{
+    position: absolute;
+    margin-top: 300px;
+    right:25px;
+    height: 23px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    background: url("../ProductDetail/img_products/right_arrow.png");
+    background-size: cover;
+    background-position: center;
+    animation:objectAnimation 1.3s .5s backwards;
+}
+
+.previousPage:hover, .nextPage:hover{
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-blend-mode:saturation;
+    transform: scale(1.2);
+}

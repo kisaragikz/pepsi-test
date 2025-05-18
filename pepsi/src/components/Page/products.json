@@ -1,0 +1,1562 @@
+[
+    {
+        "id": 1,
+        "page": "product_1",
+        "name": "PEPSI",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "30mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "41g",
+                    "14%"
+                ],
+                "sugars": [
+                    "41g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI.png",
+        "background_color": "rgba(0, 101, 195, 0.9)"
+    },
+    {
+        "id": 2,
+        "page": "product_2",
+        "name": "PEPSI ZERO SUGAR",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "40mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI ZERO SUGAR.png",
+        "background_color": "rgba(0, 0, 0, 0.9)"
+    },
+    {
+        "id": 3,
+        "page": "product_3",
+        "name": "DIET PEPSI",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/DIET PEPSI.png",
+        "background_color": "rgba(135, 135, 135, 0.9)"
+    },
+    {
+        "id": 4,
+        "page": "product_4",
+        "name": "PEPSI MANGO",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "95mg",
+                    "4%"
+                ],
+                "carbohydrate": [
+                    "41g",
+                    "14%"
+                ],
+                "sugars": [
+                    "41g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI MANGO.png",
+        "background_color": "rgba(255, 143, 28, 0.9)"
+    },
+    {
+        "id": 5,
+        "page": "product_5",
+        "name": "PEPSI ZERO SUGAR MANGO",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI ZERO SUGAR MANGO.png",
+        "background_color": "rgba(255, 143, 28, 0.9)"
+    },
+    {
+        "id": 6,
+        "page": "product_6",
+        "name": "PEPSI WILD CHERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 160,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "30mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "42g",
+                    "14%"
+                ],
+                "sugars": [
+                    "42g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI WILD CHERRY.png",
+        "background_color": "rgba(197, 20, 47, 0.9)"
+    },
+    {
+        "id": 7,
+        "page": "product_7",
+        "name": "DIET PEPSI WILD CHERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/DIET PEPSI WILD CHERRY.png",
+        "background_color": "rgba(135, 135, 135, 0.9)"
+    },
+    {
+        "id": 8,
+        "page": "product_8",
+        "name": "PEPSI ZERO SUGAR WILD CHERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI ZERO SUGAR WILD CHERRY.png",
+        "background_color": "rgba(208, 36, 118, 0.86)"
+    },
+    {
+        "id": 9,
+        "page": "product_9",
+        "name": "PEPSI REAL SUGAR",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "30mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "40g",
+                    "13%"
+                ],
+                "sugars": [
+                    "40g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI REAL SUGAR.png",
+        "background_color": "rgba(0, 101, 195, 0.9)"
+    },
+    {
+        "id": 10,
+        "page": "product_10",
+        "name": "PEPSI CAFFEINE FREE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "30mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "41g",
+                    "14%"
+                ],
+                "sugars": [
+                    "41g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI CAFFEINE FREE.png",
+        "background_color": "rgba(187, 147, 57, 0.8)"
+    },
+    {
+        "id": 11,
+        "page": "product_11",
+        "name": "DIET PEPSI CAFFEINE FREE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "50mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/DIET PEPSI CAFFEINE FREE.png",
+        "background_color": "rgba(190, 190, 190, 0.8)"
+    },
+    {
+        "id": 12,
+        "page": "product_12",
+        "name": "NITRO PEPSI",
+        "count": 1,
+        "price": 27,
+        "nutrition_facts": {
+            "serving_size": [
+                "13.65 fl oz",
+                "404 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 230,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "140mg",
+                    "6%"
+                ],
+                "carbohydrate": [
+                    "62g",
+                    "21%"
+                ],
+                "sugars": [
+                    "62g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/NITRO PEPSI.png",
+        "background_color": "rgba(36, 66, 153, 0.8)"
+    },
+    {
+        "id": 13,
+        "page": "product_14",
+        "name": "NITRO PEPSI VANILLA",
+        "count": 1,
+        "price": 27,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "404 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 230,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "140mg",
+                    "6%"
+                ],
+                "carbohydrate": [
+                    "63g",
+                    "21%"
+                ],
+                "sugars": [
+                    "63g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/NITRO PEPSI VANILLA.png",
+        "background_color": "rgba(197, 187, 153, 0.8)"
+    },
+    {
+        "id": 14,
+        "page": "product_14",
+        "name": "PEPSI SODA SHOP BLACK CHERRY",
+        "count": 1,
+        "price": 23,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "39g",
+                    "14%"
+                ],
+                "sugars": [
+                    "39g",
+                    "78%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI SODA SHOP BLACK CHERRY.png",
+        "background_color": "rgba(255, 50, 0, 0.8)"
+    },
+    {
+        "id": 15,
+        "page": "product_15",
+        "name": "PEPSI SODA SHOP CREAM SODA",
+        "count": 1,
+        "price": 23,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "39g",
+                    "14%"
+                ],
+                "sugars": [
+                    "39g",
+                    "78%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI SODA SHOP CREAM SODA.png",
+        "background_color": "rgba(255, 130, 0, 0.8)"
+    },
+    {
+        "id": 16,
+        "page": "product_16",
+        "name": "PEPSI SODA SHOP CREAM SODA ZERO SUGAR",
+        "count": 1,
+        "price": 23,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "360 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/PEPSI SODA SHOP CREAM SODA ZERO SUGAR.png",
+        "background_color": "rgba(0, 0, 0, 0.8)"
+    },
+    {
+        "id": 17,
+        "page": "product_17",
+        "name": "FANTA ORANGE CREAM ZERO SUGAR",
+        "count": 1,
+        "price": 22,
+        "nutrition_facts": {
+            "serving_size": [
+                "20 fl oz",
+                "591 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "bottle"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    "0%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/ORANGE CREAM ZERO SUGAR.png",
+        "background_color": "rgba(126, 213, 207, 0.8)"
+    },
+    {
+        "id": 18,
+        "page": "product_18",
+        "name": "FANTA DRAGON FRUIT ZERO SUGAR",
+        "count": 1,
+        "price": 22,
+        "nutrition_facts": {
+            "serving_size": [
+                "20 fl oz",
+                "591 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "bottle"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    "0%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA DRAGON FRUIT ZERO SUGAR.png",
+        "background_color": "rgba(241, 43, 135, 0.8)"
+    },
+    {
+        "id": 19,
+        "page": "product_19",
+        "name": "FANTA ZERO SUGAR ORANGE",
+        "count": 1,
+        "price": 22,
+        "nutrition_facts": {
+            "serving_size": [
+                "20 fl oz",
+                "591 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "bottle"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "60mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "1g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    "0%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA ZERO SUGAR ORANGE.png",
+        "background_color": "rgba(255, 135, 0, 0.8)"
+    },
+    {
+        "id": 20,
+        "page": "product_20",
+        "name": "FANTA BERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "41g",
+                    "15%"
+                ],
+                "sugars": [
+                    "40g",
+                    "81%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA BERRY.png",
+        "background_color": "rgba(0, 101, 195, 0.9)"
+    },
+    {
+        "id": 21,
+        "page": "product_21",
+        "name": "FANTA ORANGE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 160,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "55mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "44g",
+                    "16%"
+                ],
+                "sugars": [
+                    "43g",
+                    "86%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA ORANGE.png",
+        "background_color": "rgba(255, 135, 0, 0.8)"
+    },
+    {
+        "id": 22,
+        "page": "product_22",
+        "name": "FANTA PIÑA COLADA",
+        "count": 1,
+        "price": 22,
+        "nutrition_facts": {
+            "serving_size": [
+                "20 fl oz",
+                "591 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "bottle"
+            ],
+            "amount_per_serving": "",
+            "calories": 230,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "61g",
+                    "22%"
+                ],
+                "sugars": [
+                    "61g",
+                    "122%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA PIÑA COLADA.png",
+        "background_color": "rgba(135, 135, 135, 0.9)"
+    },
+    {
+        "id": 23,
+        "page": "product_23",
+        "name": "FANTA PINEAPPLE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 180,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "55mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "48g",
+                    "18%"
+                ],
+                "sugars": [
+                    "48g",
+                    "96%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA PINEAPPLE.png",
+        "background_color": "rgba(241, 197, 45, 0.8)"
+    },
+    {
+        "id": 24,
+        "page": "product_24",
+        "name": "FANTA GRAPE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 170,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "40mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "44g",
+                    "16%"
+                ],
+                "sugars": [
+                    "44g",
+                    "88%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA GRAPE.png",
+        "background_color": "rgba(140, 30, 255, 0.9)"
+    },
+    {
+        "id": 25,
+        "page": "product_25",
+        "name": "FANTA STRAWBERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 160,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "45mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "45g",
+                    "16%"
+                ],
+                "sugars": [
+                    "44g",
+                    "89%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA STRAWBERRY.png",
+        "background_color": "rgba(208, 36, 50, 0.86)"
+    },
+    {
+        "id": 26,
+        "page": "product_26",
+        "name": "FANTA FRUIT PUNCH",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 150,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "40g",
+                    "15%"
+                ],
+                "sugars": [
+                    "39g",
+                    "78%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA FRUIT PUNCH.png",
+        "background_color": "rgba(208, 36, 100, 0.86)"
+    },
+    {
+        "id": 27,
+        "page": "product_27",
+        "name": "FANTA PEACH",
+        "count": 1,
+        "price": 22,
+        "nutrition_facts": {
+            "serving_size": [
+                "20 fl oz",
+                "591 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "bottle"
+            ],
+            "amount_per_serving": "",
+            "calories": 250,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "80mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "68g",
+                    "25%"
+                ],
+                "sugars": [
+                    "67g",
+                    "135%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/FANTA PEACH.png",
+        "background_color": "rgba(255, 135, 0, 0.8)"
+    },
+    {
+        "id": 28,
+        "page": "product_28",
+        "name": "SCHWEPPES GINGER ALE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 120,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "60mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "33g",
+                    "12%"
+                ],
+                "sugars": [
+                    "33g",
+                    "65%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES GINGER ALE.png",
+        "background_color": "rgba(72, 135, 80, 0.8)"
+    },
+    {
+        "id": 29,
+        "page": "product_29",
+        "name": "SCHWEPPES RASPBERRY GINGER ALE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 140,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "60mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "38g",
+                    "14%"
+                ],
+                "sugars": [
+                    "38g",
+                    "75%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES RASPBERRY GINGER ALE.png",
+        "background_color": "rgba(229, 158, 217, 0.8)"
+    },
+    {
+        "id": 30,
+        "page": "product_30",
+        "name": "SCHWEPPES TONIC WATER",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 130,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "55mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "33g",
+                    "12%"
+                ],
+                "sugars": [
+                    "33g",
+                    "65%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES TONIC WATER.png",
+        "background_color": "rgba(241, 197, 45, 0.8)"
+    },
+    {
+        "id": 31,
+        "page": "product_31",
+        "name": "SCHWEPPES BITTER LEMON",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 189,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "32mg",
+                    "1%"
+                ],
+                "carbohydrate": [
+                    "45g",
+                    "15%"
+                ],
+                "sugars": [
+                    "45g",
+                    ""
+                ],
+                "protein": "0.4g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES BITTER LEMON.png",
+        "background_color": "rgba(126, 213, 207, 0.8)"
+    },
+    {
+        "id": 32,
+        "page": "product_32",
+        "name": "SCHWEPPES DRY GINGER ALE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 114,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "60mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "27g",
+                    "9%"
+                ],
+                "sugars": [
+                    "27g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES DRY GINGER ALE.png",
+        "background_color": "rgba(208, 36, 50, 0.86)"
+    },
+    {
+        "id": 33,
+        "page": "product_33",
+        "name": "SCHWEPPES SODA WATER",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 0,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "72mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    ""
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SCHWEPPES SODA WATER.png",
+        "background_color": "rgba(0, 0, 0, 0.8)"
+    },
+    {
+        "id": 34,
+        "page": "product_34",
+        "name": "SPRITE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 140,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "38g",
+                    "14%"
+                ],
+                "sugars": [
+                    "38g",
+                    "76%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE.png",
+        "background_color": "rgba(78, 167, 64, 0.8)"
+    },
+    {
+        "id": 35,
+        "page": "product_35",
+        "name": "SPRITE ZERO SUGAR",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 140,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "0%"
+                ],
+                "sugars": [
+                    "0g",
+                    "0%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE ZERO SUGAR.png",
+        "background_color": "rgba(0, 0, 0, 0.8)"
+    },
+    {
+        "id": 36,
+        "page": "product_36",
+        "name": "SPRITE CHERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 120,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "33g",
+                    "12%"
+                ],
+                "sugars": [
+                    "33g",
+                    "65%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE CHERRY.png",
+        "background_color": "rgba(197, 20, 47, 0.9)"
+    },
+    {
+        "id": 37,
+        "page": "product_37",
+        "name": "SPRITE LYMONADE",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 130,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "35g",
+                    "13%"
+                ],
+                "sugars": [
+                    "34g",
+                    "69%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE LYMONADE.png",
+        "background_color": "rgba(78, 167, 64, 0.8)"
+    },
+    {
+        "id": 38,
+        "page": "product_38",
+        "name": "SPRITE WINTER SPICED CRANBERRY",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                1,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 120,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "65mg",
+                    "3%"
+                ],
+                "carbohydrate": [
+                    "33g",
+                    "12%"
+                ],
+                "sugars": [
+                    "33g",
+                    "65%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE WINTER SPICED CRANBERRY.png",
+        "background_color": "rgba(78, 167, 64, 0.8)"
+    },
+    {
+        "id": 39,
+        "page": "product_39",
+        "name": "SPRITE WINTER SPICED CRANBERRY ZERO SUGAR",
+        "count": 1,
+        "price": 19,
+        "nutrition_facts": {
+            "serving_size": [
+                "12 fl oz",
+                "355 mL"
+            ],
+            "servings_per_container": [
+                12,
+                "can"
+            ],
+            "amount_per_serving": "",
+            "calories": 120,
+            "daily_value": {
+                "fat": [
+                    "0g",
+                    "0%"
+                ],
+                "sodium": [
+                    "35mg",
+                    "2%"
+                ],
+                "carbohydrate": [
+                    "0g",
+                    "12%"
+                ],
+                "sugars": [
+                    "0g",
+                    "0%"
+                ],
+                "protein": "0g"
+            }
+        },
+        "img_product": "img_product/SPRITE WINTER SPICED CRANBERRY ZERO SUGAR.png",
+        "background_color": "rgba(200, 200, 200, 0.9)"
+    }
+]

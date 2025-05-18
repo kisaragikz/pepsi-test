@@ -1,0 +1,25 @@
+.card-login {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding-top: 200px;
+}
+.card-login::before{
+    content: "";
+    background-image: url('./login-background.png');
+    background-size: 600px;
+    background-position: center;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+@media only screen and (max-width: 500px) {
+    .card-login {
+        padding: 150px 0px;
+    }
+}

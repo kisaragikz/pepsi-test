@@ -1,0 +1,109 @@
+.box-login {
+    width: 410px;
+    height: 500px;
+    background: url('/public/svghh.svg');
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    scale: 1.25;
+    margin-top: 50px;
+}
+.form-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-page h1 {
+    margin: 30px;
+    font-size: 33px;
+
+}
+.form-page h1 span {
+    background: linear-gradient(to right, #BB3B00 , #F86C2C);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+
+.form-page input[type=text], input[type=password] {
+    transition: all 0.2s ease-in-out;
+}
+.form-page input:focus {
+    scale: 1.03;
+}
+.form-page input {
+    width: 100%;
+    border: none;
+    box-shadow: 0.1px 0.1px 10px 1px gray;
+    font-size: 20px;
+    outline-color: #F86C2C;
+}
+
+.input-box {
+    margin: 10px 40px;
+    width: 80%;
+}
+.input-box p{
+    margin: 3px 0px;
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+
+
+.hi{
+    margin: 0;
+}
+.a {
+    background: linear-gradient(to right, #BB3B00 , #F86C2C) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0.5px 0.5px 2px 0.3px black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 40px;
+
+}
+.a:hover{
+    color:rgba(255, 255, 255, 0.384);
+}
+
+.buttbox {
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+}
+
+.buttbox * {
+    margin: 0px 75px 0px 40px;
+    font-size: 20px;
+}
+
+.to-reg {
+    color: #F86C2C;
+}
+.to-reg:hover {
+    color: #6d2200;
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        width: 250px;
+        height: 350px;
+        background-size: inherit ;
+        scale: 1.1;
+        margin-top: 0;
+    }
+
+    .a {
+        
+        width: 150px;
+        margin-top: 40px;
+    }
+    
+}
+
+
+
+/* #BB3B00  #F86C2C*/

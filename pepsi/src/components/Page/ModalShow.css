@@ -1,0 +1,107 @@
+.box-modal{
+    display: flex;
+}
+:root{
+    --bs-modal-border-radius: 20px
+}
+.left-modal{
+
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    background-color:transparent;
+    margin-right: 2vw;
+}
+.left-modal img{
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    height: 100%;
+    width: 220px;
+}
+.right-modal h3{
+    margin: 0;
+    margin-bottom: 0;
+}
+.right-modal p{
+    margin-top: 1vw;
+}
+.right-modal{
+    padding: 1vw;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-up{
+    margin: 0;
+}
+.title{
+    border-bottom: 2px solid black;
+    padding-bottom: 1vw;
+}
+.agear{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 12px ;
+}
+.button-group{
+    height:120px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1;
+    display: flex;
+}
+.pinbutton{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right:  2vw;
+}
+.botton{
+    color: rgb(0, 0, 0);
+    transition: 5ms;
+    background-color: #d47055;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .3s;
+    
+}
+.botton:focus{
+    transform: scale(1.1);
+}
+
+#sizebtn{
+    margin-bottom: 1.8vw;
+}
+
+.submitbutton{
+    position: relative;
+    display: flex;
+    border-radius: none;
+}
+.submitbutton .botton{
+    background: black;
+    color:white;
+    transition: .4s;
+    width: 8rem;
+}
+.submitbutton .botton:hover{
+    background: rgba(0, 0, 0, 0.808);
+}
+.Modalcontainer{
+    background-color: white;
+    
+}
+
+.selected{
+    margin-left: 2vw;
+}

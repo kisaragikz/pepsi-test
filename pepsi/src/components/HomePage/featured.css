@@ -1,0 +1,52 @@
+.featured-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f86c2c;
+    overflow-x: hidden;
+}
+.featured-top{
+    height: 12vh;
+}
+.featured-text{
+    width: 100%;
+    text-align: center;
+    font-size: 8vh;
+    color: white;
+    background-color: #1E1E1E;
+}
+.featured-bot{
+    height: 88vh;
+    display: flex;
+}
+.boxf{
+    width: 25%;
+}
+.schweppes{
+    background-color: #FFCD26;
+}
+.pepsi{
+    background-color: #023668;
+}
+.sprite{
+    background-color: #00984A;
+}
+.fanta{
+    background-color: #F18809;
+}
+.fimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25%;
+}
+@keyframes shake {
+    0%{transform: rotate(0deg) scale(1.2);}
+    25%{transform: rotate(360deg) scale(1.2);}
+    50%{transform: rotate(360deg) scale(1.2);}
+    75%{transform: rotate(360deg) scale(1.2);}
+    100%{transform: rotate(360deg) scale(1.2);}
+}
+.fimg:hover{
+    animation: 1s linear shake;
+}
