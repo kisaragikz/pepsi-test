@@ -15,6 +15,7 @@ import fantaberry from "./img_product/FANTA BERRY.png"
 import fantaorange from "./img_product/FANTA ORANGE.png"
 import SCHWEPPESlemon from "./img_product/SCHWEPPES BITTER LEMON.png"
 import SCHWEPPESsoda from "./img_product/SCHWEPPES SODA WATER.png";
+import bestselleritems from './bestselleritems';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const Bestseller = () => {
     return (
@@ -60,7 +61,17 @@ const Bestseller = () => {
                     },
                 }}
             >
-                <SwiperSlide>
+                {bestselleritems.map(item => (
+                    <SwiperSlide key={item.id}>
+                        <Link to={`/product/${item.id - 1}`}>
+                        <div className='item-box'>
+                            <img className='item-img' src={item.img} alt={item.name} />
+                            <h2 className='item-text'>{item.name}</h2>
+                        </div>
+                        </Link>
+                    </SwiperSlide>
+                ))}
+                {/* <SwiperSlide>
                     <div className='item-box'>
                         <img className='item-img' src={spritecranberry} alt></img>
                         <h2 className='item-text'>SPRITE WINTER SPICED CRANBERRY ZERO SUGAR</h2>
@@ -113,7 +124,7 @@ const Bestseller = () => {
                         <img className='item-img' src={SCHWEPPESsoda}></img>
                         <h2 className='item-text'>SCHWEPPES SODA WATER</h2>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
             {/* </div> */}
             {/* <div id="gallery">
