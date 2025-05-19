@@ -2,10 +2,11 @@
     background-color: black;
     width: 100%;
     height: 100vh;
+    margin-bottom: 100px;
 }
 
 .item-img {
-    max-width: 145px;
+    max-width: 130px;
 }
 .item-box {
     justify-content: center;
@@ -31,12 +32,13 @@
     color: white;
     padding: 40px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .bestseller-buynow {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 0px;
     font-size: 24px;
+    margin-top: 50px;
 }
 .bestseller-buynow a {
     text-decoration: none;
@@ -67,7 +69,7 @@
     text-shadow: 1px 1px 2px #e7e7e7; 
 }
 .swiper {
-    padding: 60px;
+    padding: 80px;
 }
 
 .swiper-container {

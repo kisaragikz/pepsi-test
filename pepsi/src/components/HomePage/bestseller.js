@@ -20,7 +20,6 @@ import React, { useState, useRef, useEffect } from 'react';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const Bestseller = () => {
-    
     return (
         <section className="bestseller-product" id='bestseller-section'>
             <div className="bestseller-upper">
@@ -144,9 +143,9 @@ const Bestseller = () => {
             {/* <div className='schwepp-bottom'>
                 <h1>gear</h1>
             </div> */}
-            <div className='bestseller-buynow'>
+            {/* <div className='bestseller-buynow'>
                 <Link to="/purches"><div className='buynow-text buynow-text-white'>READ MORE</div></Link>
-            </div>
+            </div> */}
         </section>
 
     )

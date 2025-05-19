@@ -3,9 +3,12 @@ import vdo from './vdo/vdo.mp4'
 const vdotest = () => {
   return (
     <div className="testvdo-container">
-        <video className="testvdo" loop muted controls playsInline="vdo/poster.png">
-            <source src={vdo}></source>
-        </video>
+        <div className="testvdo-box">
+            <video className="testvdo" loop muted controls playsInline="vdo/poster.png">
+                <source src={vdo}></source>
+            </video>
+        </div>
+        
         {/* <div className="testoverlay">
             <div className="testcontent">
                 <h1>สดชื่นทุกสัมผัส</h1>
