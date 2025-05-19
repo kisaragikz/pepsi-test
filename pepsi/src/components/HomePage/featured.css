@@ -1,11 +1,11 @@
 .featured-container{
     width: 100%;
-    height: 65vh;
+    height: 30vh;
     background-color: black;
     overflow-x: hidden;
 }
 .featured-top{
-    height: 30vh;
+    height: 20vh;
     display: flex;
 }
 .featured-text{
@@ -15,10 +15,10 @@
     color: white;
     background-color: black;
 }
-.featured-bot{
+/* .featured-bot{
     height: 30vh;
     display: flex;
-}
+} */
 .boxf{
     width: 25%;
 }

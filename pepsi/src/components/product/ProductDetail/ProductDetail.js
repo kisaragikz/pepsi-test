@@ -3,6 +3,7 @@ import "./ProductStyle.css"
 import { Link,useParams} from "react-router-dom"
 import Item from "../products.json"
 import {React,useState,useEffect} from "react"
+import vdo from '../../HomePage/vdo/vdo.mp4'
 const ProductDetail = () =>{
     window.scroll(0,0);
     let {page} = useParams();
@@ -38,37 +39,14 @@ const ProductDetail = () =>{
     }, [translate]);
     return(
             <div className="detail-body" >
-                <div className="detail-background" style={{backgroundColor:Item[page].background_color}}></div>
+                {/* <div className="detail-background" style={{backgroundColor:Item[page].background_color}}>
+                </div> */}
                 <Navbar />
-                {firstCond ? (
-                    <>
-                        <Link className="previousPage" to={{
-                        pathname : `/product/${parseInt(page)+38}`,
-                        }} onClick={handleClick}>
-                        </Link>
-                    </>
-                ):(<>
-                        <Link className="previousPage" to={{
-                        pathname : `/product/${parseInt(page)-1}`,
-                        }} onClick={handleClick}>
-                        </Link>
-                </>)}
-                {secCond ?(
-                    <>
-                        <Link className="nextPage" to={{
-                        pathname : `/product/${parseInt(page)-38}`,
-                        }} onClick={handleClick}>
-                        </Link>
-                    </>
-                ):(<>
-                        <Link className="nextPage" to={{
-                        pathname : `/product/${parseInt(page)+1}`,
-                        }} onClick={handleClick}>
-                        </Link>
-                </>)}
+                    <Link className="previousPage" to='/#bestseller-section' onClick={handleClick}>
+                    </Link>
                     
                 <div className="detail-container" style={{transition: shouldTransition ? "all 0.75s" : "",opacity: `${translate}`}}>
-                    <div className="detail-left">
+                    {/* <div className="detail-left">
                         <h1>{Item[page].name}</h1>
                         <h4>NUTRITION FACTS</h4>
                         <div style={{display:"flex"}}>
@@ -118,8 +96,14 @@ const ProductDetail = () =>{
                     </div>
                     <div className="detail-right">
                         <img className="detail-img" src={`${Item[page].img_product}`} alt=""/>
+                    </div> */}
+                    <div className="productvdo-container">
+                        <video className="productvdo" loop muted controls playsInline="vdo/poster.png">
+                            <source src={vdo}></source>
+                        </video>
                     </div>
                 </div>
+                
             </div>
     )
 }

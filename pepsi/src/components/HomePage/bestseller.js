@@ -16,10 +16,13 @@ import { Link } from "react-router-dom";
 // import SCHWEPPESlemon from "./img_product/SCHWEPPES BITTER LEMON.png"
 // import SCHWEPPESsoda from "./img_product/SCHWEPPES SODA WATER.png";
 import bestselleritems from './bestselleritems';
+import React, { useState, useRef, useEffect } from 'react';
+
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const Bestseller = () => {
+    
     return (
-        <section className="bestseller-product">
+        <section className="bestseller-product" id='bestseller-section'>
             <div className="bestseller-upper">
                 <div>CATAGORIES</div>
             </div>
@@ -35,10 +38,10 @@ const Bestseller = () => {
                 // onSlideChange={() => console.log('slide change')}
                 // onSwiper={(swiper) => console.log(swiper)}
                 loop={true}
-                autoplay={{
-                    delay: 3000,
-                    disableOnInteraction: false
-                }}
+                // autoplay={{
+                //     delay: 3000,
+                //     disableOnInteraction: false
+                // }}
                 breakpoints={{
                     0: {
                         slidesPerView: 0,

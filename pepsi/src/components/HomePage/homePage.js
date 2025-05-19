@@ -10,8 +10,22 @@ import Featured from './featured';
 import VdoPage from './VdoPage';
 import Vdotest from './vdotest';
 import Penzillabanner from './penzillabanner';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 function Homepage () {
     window.scroll(0,0)
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === "#bestseller-section") {
+        const el = document.getElementById("bestseller-section");
+        if (el) {
+            setTimeout(() => {
+            el.scrollIntoView({ behavior: 'smooth' });
+            }, 0);
+        }
+        }
+    }, [location]);
     return (
         <div style={{width:"100%"}}>
             <Navbar></Navbar>
@@ -24,10 +38,11 @@ function Homepage () {
             {/* <Banner></Banner> */}
             <Featured></Featured>
             <Bestseller></Bestseller>
+            <Vdotest></Vdotest>
             {/* <Bestoffer></Bestoffer> */}
             {/* <New></New> */}
             {/* <VdoPage></VdoPage> */}
-            {/* <Vdotest></Vdotest> */}
+            
             {/* <SectionCoke></SectionCoke> */}
             {/* <Pourstep></Pourstep> */}
             {/* <Footer></Footer> */}
