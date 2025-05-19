@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import './navbar.css'
-import { CiUser, CiLogout} from "react-icons/ci";
+// import { CiUser, CiLogout} from "react-icons/ci";
 const Navul = styled.ul`
     display: flex;
     @media (max-width: 768px) {
@@ -53,23 +53,23 @@ const StyledBurger = styled.div`
         }
     }
 `
-const CheckLogin = (props)=>{
-    return
-}
+// const CheckLogin = (props)=>{
+//     return
+// }
 const Navbar = () => {
-    const [Logined, setLogined] = useState(JSON.parse(localStorage.getItem('login')))
-    console.log(Logined)
-    const loging = ()=>{
-        {window.location.reload();}
-        localStorage.setItem('login', 0);
-    }
+    // const [Logined, setLogined] = useState(JSON.parse(localStorage.getItem('login')))
+    // console.log(Logined)
+    // const loging = ()=>{
+    //     {window.location.reload();}
+    //     localStorage.setItem('login', 0);
+    // }
     const [open, setOpen] = useState(false)
     return (
         <div className="navbar">
             <div className="navbar-left">
                 <Link to="/">
                     <div className="navbar-item" id="navbarhead">
-                        Kumi Shop
+                        Penzilla
                     </div>
                 </Link>
             </div>
@@ -93,20 +93,20 @@ const Navbar = () => {
             </StyledBurger>
             <div className="navbar-right" open={open}>
                 <Navul open={open}>
-                    <li><Link to="/product"><div className='navbar-item gradient'>view product</div></Link></li>
+                    {/* <li><Link to="/product"><div className='navbar-item gradient'>view product</div></Link></li> */}
                     {/* <li><Link to="/contact"><div className='navbar-item gradient'>contact us</div></Link></li> */}
-                    <li><Link to="/purches"><a><div className='navbar-item gradient' id='buy'>buy products</div></a></Link></li>
-                    {Logined === 0 ?<li><Link to="/login"><a><CiUser className='uiPeple'
-                        style={{width:'40px', color: '#f86c2c', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
+                    {/* <li><Link to="/purches"><a><div className='navbar-item gradient' id='buy'>buy products</div></a></Link></li> */}
+                    {/* {Logined === 0 ?<li><Link to="/login"><a><CiUser className='uiPeple'
+                        style={{width:'40px', color: '#e7e7e7', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
                     ></CiUser></a></Link></li>: Logined == null ?<li><Link to="/login"><a
                     onClick={()=>loging()}><CiUser className='uiPeple'
-                    style={{width:'40px', color: '#f86c2c', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
+                    style={{width:'40px', color: '#e7e7e7', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
                     ></CiUser></a></Link></li>:
                     <li><Link to="/">
                         <a onClick={()=>loging()}>
                         <CiLogout className='uiPeple'
-                        style={{width:'40px', color: '#f86c2c', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
-                    ></CiLogout></a></Link></li>}
+                        style={{width:'40px', color: '#e7e7e7', height:'50px', marginLeft:'1.5vw', marginRight:'2vw'}}
+                    ></CiLogout></a></Link></li>} */}
                 </Navul>
             </div>
         </div>

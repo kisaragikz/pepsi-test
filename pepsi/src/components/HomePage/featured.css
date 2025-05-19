@@ -1,37 +1,38 @@
 .featured-container{
     width: 100%;
-    height: 100vh;
-    background-color: #f86c2c;
+    height: 65vh;
+    background-color: black;
     overflow-x: hidden;
 }
 .featured-top{
-    height: 12vh;
+    height: 30vh;
+    display: flex;
 }
 .featured-text{
     width: 100%;
     text-align: center;
     font-size: 8vh;
     color: white;
-    background-color: #1E1E1E;
+    background-color: black;
 }
 .featured-bot{
-    height: 88vh;
+    height: 30vh;
     display: flex;
 }
 .boxf{
     width: 25%;
 }
 .schweppes{
-    background-color: #FFCD26;
+    background-color: black;
 }
 .pepsi{
-    background-color: #023668;
+    background-color: black;
 }
 .sprite{
-    background-color: #00984A;
+    background-color: black;
 }
 .fanta{
-    background-color: #F18809;
+    background-color: black;
 }
 .fimg{
     display: block;

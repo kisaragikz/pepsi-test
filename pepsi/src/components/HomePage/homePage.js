@@ -9,8 +9,9 @@ import './homePage.css';
 import Featured from './featured';
 import VdoPage from './VdoPage';
 import Vdotest from './vdotest';
+import Penzillabanner from './penzillabanner';
 function Homepage () {
-    {window.scroll(0,0)}
+    window.scroll(0,0)
     return (
         <div style={{width:"100%"}}>
             <Navbar></Navbar>
@@ -19,16 +20,17 @@ function Homepage () {
                 <div className='product-soda'></div>
                 <div className='product-cherry'></div>
             </section> */}
-            <Banner></Banner>
+            <Penzillabanner></Penzillabanner>
+            {/* <Banner></Banner> */}
             <Featured></Featured>
             <Bestseller></Bestseller>
-            <Bestoffer></Bestoffer>
-            <New></New>
-            <VdoPage></VdoPage>
-            <Vdotest></Vdotest>
+            {/* <Bestoffer></Bestoffer> */}
+            {/* <New></New> */}
+            {/* <VdoPage></VdoPage> */}
+            {/* <Vdotest></Vdotest> */}
             {/* <SectionCoke></SectionCoke> */}
             {/* <Pourstep></Pourstep> */}
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     )
 }

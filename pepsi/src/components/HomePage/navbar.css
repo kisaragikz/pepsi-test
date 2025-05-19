@@ -14,7 +14,8 @@
     display: flex;
     justify-content: space-between;
     text-transform:uppercase;
-    background-color: #1e1e1e ;
+    /* background-color: #1e1e1e ; */
+    background-color: black;
     color: white;
     z-index: 100;
 }
@@ -47,12 +48,12 @@
 }
 .navbar-right div.gradient:hover {
     color: white;
-	box-shadow: 0 5px 7px rgba(245, 116, 14, 0.5);
+	box-shadow: 0 5px 7px rgba(231, 231, 231, 0.5);
 	transform: translateY(-2px);
 }
 .navbar-right .navbar-item{
     border-radius: 30px;
-    border: 2px solid #f86c2c;
+    border: 2px solid #e7e7e7;
     padding: 5px 25px;
     -webkit-transform: perspective(1px) translateZ(0);
 	background: #1e1e1e;
@@ -62,7 +63,7 @@
 	transition-duration: 0.2s;
 }
 .navbar-right .navbar-item:before {
-	background: linear-gradient(to bottom, #f86c2c, #1e1e1e);
+	background: linear-gradient(to bottom, #e7e7e7, #1e1e1e);
 	transform: scaleY(0);
 	transform-origin: 0% 0%;
 	transition: 0.2s cubic-bezier(.86, .01, .15, .99);

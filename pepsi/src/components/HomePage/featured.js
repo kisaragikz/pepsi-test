@@ -7,20 +7,37 @@ const Featured = ()=>{
     return(
         <div className='featured-container'>
             <div className='featured-top'>
-                <div className='featured-text'>FEATURED BRAND</div>
+                <div className='boxf schweppes'>
+                    <img className='fimg' src={schweppesbr} width="40%"></img>
+                </div>
+                <div className='boxf pepsi'>
+                    <img className='fimg' src={pepsibr} width="40%"></img>
+                </div>
+                <div className='boxf pepsi'>
+                    <img className='fimg' src={pepsibr} width="40%"></img>
+                </div>
+                <div className='boxf sprite'>
+                    <img className='fimg' src={spritebr} width="40%"></img>
+                </div>
+                <div className='boxf fanta'>
+                    <img className='fimg' src={fantabr} width="40%"></img>
+                </div>
             </div>
             <div className='featured-bot'>
                 <div className='boxf schweppes'>
-                    <img className='fimg' src={schweppesbr} width="65%"></img>
+                    <img className='fimg' src={schweppesbr} width="40%"></img>
                 </div>
                 <div className='boxf pepsi'>
-                    <img className='fimg' src={pepsibr} width="65%"></img>
+                    <img className='fimg' src={pepsibr} width="40%"></img>
+                </div>
+                <div className='boxf pepsi'>
+                    <img className='fimg' src={pepsibr} width="40%"></img>
                 </div>
                 <div className='boxf sprite'>
-                    <img className='fimg' src={spritebr} width="65%"></img>
+                    <img className='fimg' src={spritebr} width="40%"></img>
                 </div>
                 <div className='boxf fanta'>
-                    <img className='fimg' src={fantabr} width="65%"></img>
+                    <img className='fimg' src={fantabr} width="40%"></img>
                 </div>
             </div>
             
