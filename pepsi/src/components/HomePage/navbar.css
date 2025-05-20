@@ -1,7 +1,8 @@
-@font-face {font-family: "Sofia Pro Black"; src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot"); src: url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.woff") format("woff"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1572b251b0319fdd12219a000aad6196.svg#Sofia Pro Black") format("svg"); }
-*{
-    text-decoration: none;
-    list-style: none;
+@font-face {
+  font-family: 'PepsiOwners';
+  src: url('../assets/font/pepsiowners-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 .navbar-right ul{
     margin: 0;
@@ -10,7 +11,7 @@
 .navbar{
     width: 100%;
     position: fixed;
-    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-family: 'PepsiOwners', sans-serif;
     display: flex;
     justify-content: space-between;
     text-transform:uppercase;

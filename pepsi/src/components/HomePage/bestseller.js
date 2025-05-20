@@ -21,7 +21,7 @@ import React, { useState, useRef, useEffect } from 'react';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const Bestseller = () => {
     return (
-        <section className="bestseller-product" id='bestseller-section'>
+        <section className="bestseller-product" id='catagory-section'>
             <div className="bestseller-upper">
                 <div>CATAGORIES</div>
             </div>

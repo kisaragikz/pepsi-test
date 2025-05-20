@@ -17,8 +17,8 @@ function Homepage () {
     const location = useLocation();
 
     useEffect(() => {
-        if (location.hash === "#bestseller-section") {
-        const el = document.getElementById("bestseller-section");
+        if (location.hash === "#catagory-section") {
+        const el = document.getElementById("catagory-section");
         if (el) {
             setTimeout(() => {
             el.scrollIntoView({ behavior: 'smooth' });

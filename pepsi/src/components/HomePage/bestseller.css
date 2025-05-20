@@ -30,11 +30,11 @@
     text-align: center;
     font-size: 50px;
     color: white;
-    padding: 40px;
+    padding: 50px;
     margin-top: 50px;
     margin-bottom: 0px;
 }
-.bestseller-buynow {
+/* .bestseller-buynow {
     text-align: center;
     padding-top: 0px;
     font-size: 24px;
@@ -67,9 +67,10 @@
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #e7e7e7; 
-}
+} */
 .swiper {
     padding: 80px;
+    /* padding-top: 0px; */
 }
 
 .swiper-container {

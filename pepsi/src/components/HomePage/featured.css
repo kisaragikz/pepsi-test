@@ -42,11 +42,11 @@
     top: 25%;
 }
 @keyframes shake {
-    0%{transform: rotate(0deg) scale(1.2);}
-    25%{transform: rotate(360deg) scale(1.2);}
-    50%{transform: rotate(360deg) scale(1.2);}
-    75%{transform: rotate(360deg) scale(1.2);}
-    100%{transform: rotate(360deg) scale(1.2);}
+    0%{transform: scale(1.2);}
+    25%{transform: scale(1.2);}
+    50%{transform: scale(1.2);}
+    75%{transform: scale(1.2);}
+    100%{transform: scale(1.2);}
 }
 .fimg:hover{
     animation: 1s linear shake;
