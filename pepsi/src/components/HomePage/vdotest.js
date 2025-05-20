@@ -4,7 +4,7 @@ const vdotest = () => {
   return (
     <div className="testvdo-container">
         <div className="testvdo-box">
-            <video className="testvdo" loop muted controls playsInline="vdo/poster.png">
+            <video className="testvdo" loop muted controls playsInline poster="vdo/poster.png">
                 <source src={vdo}></source>
             </video>
         </div>

@@ -1,27 +1,29 @@
-.testvdo-container{
-    position: relative;
+.testvdo-container {
     width: 100%;
-    height: 100vh;
     background-color: black;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
+
 .testvdo-box {
+    top: -25px;
     position: relative;
-    width: 80%;
-    height: 90%;
+    width: 75%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
 }
-.testvdo{
+
+.testvdo {
+    display: block;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 1;
-    opacity: 75%;
-    top: 10%;
-    left: 12.5%;
+  
 }
 
 .testoverlay {
