@@ -32,8 +32,9 @@ const Bestseller = () => {
                 slidesPerView={5}
                 centeredSlides={true}
                 navigation={true}
-                // pagination={{clickable: true}}
-                scrollbar={{ dragable: true }}
+                pagination={{clickable: true}}
+                // scrollbar={{ dragable: true }}
+                // allowTouchMove={false}
                 // onSlideChange={() => console.log('slide change')}
                 // onSwiper={(swiper) => console.log(swiper)}
                 loop={true}

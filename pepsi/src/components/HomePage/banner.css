@@ -142,7 +142,7 @@
     z-index: 1;
     transform: scale(1.4);
 }
-.banner-swiper-pagination-bullet-active {
+/* .banner-swiper-pagination-bullet-active {
     background-color: #f86c2c;
 }
 .swiper-pagination-bullet {
@@ -151,4 +151,4 @@
       height: 1rem;
       border-radius: .5rem;
       opacity: 1;
-  }
+  } */
