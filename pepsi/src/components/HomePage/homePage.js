@@ -9,6 +9,7 @@ import './homePage.css';
 import Featured from './featured';
 import VdoPage from './VdoPage';
 import Vdotest from './vdotest';
+import Catagory from './catagory';
 import Penzillabanner from './penzillabanner';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -37,7 +38,8 @@ function Homepage () {
             <Penzillabanner></Penzillabanner>
             {/* <Banner></Banner> */}
             <Featured></Featured>
-            <Bestseller></Bestseller>
+            <Catagory></Catagory>
+            {/* <Bestseller></Bestseller> */}
             <Vdotest></Vdotest>
             {/* <Bestoffer></Bestoffer> */}
             {/* <New></New> */}

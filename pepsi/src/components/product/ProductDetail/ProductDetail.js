@@ -43,6 +43,7 @@ const ProductDetail = () =>{
                 </div> */}
                 <Navbar />
                     <Link className="previousPage" to='/#catagory-section' onClick={handleClick}>
+                        <div className="previoustext">Back</div>
                     </Link>
                     
                 <div className="detail-container" style={{transition: shouldTransition ? "all 0.75s" : "",opacity: `${translate}`}}>

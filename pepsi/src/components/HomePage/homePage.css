@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'PepsiOwners';
+  src: url('../assets/font/pepsiowners-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
     background-color: black;
     margin: 0;
+    user-select: none;
+    font-family: 'PepsiOwners', sans-serif;
 }
 /* section{
     position: relative;

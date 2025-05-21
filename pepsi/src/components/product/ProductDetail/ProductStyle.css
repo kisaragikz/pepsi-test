@@ -99,18 +99,26 @@
     margin-top: 10px;
     left: 80px;
     bottom: 4%;
-    height: 23px;
+    height: 24px;
     width: 50px;
     display: flex;
     justify-content: center;
     z-index: 999;
-    background: url("../ProductDetail/img_products/left_arrow.png");
+    /* background: url("../ProductDetail/img_products/left_arrow.png"); */
     background-size: cover;
     background-position: center;
     animation:objectAnimation 1.3s .5s backwards;
     
 }
-
+.previoustext {
+    color: white;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+.previoustext:hover {
+    transform: translate(5px, -5px);
+    scale: 1.2;
+}
 /* .nextPage{
     position: absolute;
     margin-top: 300px;
