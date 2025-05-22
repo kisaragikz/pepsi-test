@@ -3,26 +3,28 @@ import "./ProductStyle.css"
 import { Link,useParams} from "react-router-dom"
 import Item from "../products.json"
 import {React,useState,useEffect} from "react"
-import vdo from '../../HomePage/vdo/vdo.mp4'
+// import vdo from '../../HomePage/vdo/vdo.mp4'
+import sky from './img_products/sky.jpg'
+import lily from './img_products/lily.jpg'
 const ProductDetail = () =>{
     window.scroll(0,0);
     let {page} = useParams();
-    const [isHover, setIsHover] = useState(false);
+    // const [isHover, setIsHover] = useState(false);
     // eslint-disable-next-line
-    const firstCond = (Number(page) == 0);
+    // const firstCond = (Number(page) == 0);
     // eslint-disable-next-line
-    const secCond = (Number(page) == 38);
-    const colorStyle = () => ({
-        color: isHover ? Item[page].background_color: `white`,
-        border: isHover ? `2px solid ${Item[page].background_color}` : `2px solid white` 
-    });
-    const handleMouseEnter = () => {
-        setIsHover(true);
-     };
+    // const secCond = (Number(page) == 38);
+    // const colorStyle = () => ({
+    //     color: isHover ? Item[page].background_color: `white`,
+    //     border: isHover ? `2px solid ${Item[page].background_color}` : `2px solid white` 
+    // });
+    // const handleMouseEnter = () => {
+    //     setIsHover(true);
+    //  };
   
-    const handleMouseLeave = () => {
-    setIsHover(false);
-    };
+    // const handleMouseLeave = () => {
+    // setIsHover(false);
+    // };
     let [translate, setTranslate] = useState(0);
     let [shouldTransition, setShouldTransition] = useState(true);
 
@@ -30,6 +32,27 @@ const ProductDetail = () =>{
         setShouldTransition(false);
         setTranslate(0);
     }
+    const changeVideo = (vdoKey, posterKey) => {
+    const newsrc = `/${Item[page].vdo_product[vdoKey]}`;
+    const newposter = `/${Item[page].poster[posterKey]}`;
+    const video = document.getElementById("vdobox");
+    const source = document.getElementById("vdosrc");
+
+    if (video && source) {
+        video.classList.remove("show");
+        video.classList.add("fade");
+
+        setTimeout(() => {
+        source.src = newsrc;
+        video.poster = newposter;
+        video.load();
+        video.classList.remove("fade");
+        video.classList.add("show");
+        }, 500)
+        
+        // video.play();
+    }
+    };
 
     useEffect(() => {
         if (translate === 0) {
@@ -98,10 +121,31 @@ const ProductDetail = () =>{
                     <div className="detail-right">
                         <img className="detail-img" src={`${Item[page].img_product}`} alt=""/>
                     </div> */}
-                    <div className="productvdo-container">
-                        <video className="productvdo" loop muted controls playsInline="vdo/poster.png">
-                            <source src={vdo}></source>
-                        </video>
+                    <div className="detail-left">
+                        <div className="productvdo-container">
+                            <video id="vdobox" className="productvdo show" loop muted controls playsInline poster={`${Item[page].poster.poster1}`}>
+                                <source id="vdosrc" src={`${Item[page].vdo_product.vdo1}`}></source>
+                            </video>
+                        </div>
+                    </div>
+                    <div className="detail-right">
+                        <div className="productvdo-list">
+                            <div className="vdolist">
+                                <img src={sky} onClick={() => changeVideo("vdo1", "poster1")}></img>
+                            </div>
+                            <div className="vdolist">
+                                <img src={lily} onClick={() => changeVideo("vdo2", "poster2")}></img>
+                            </div>
+                            <div className="vdolist">
+                                <img src={sky} onClick={() => changeVideo("vdo1")}></img>
+                            </div>
+                            <div className="vdolist">
+                                <img src={sky} onClick={() => changeVideo("vdo1")}></img>
+                            </div>
+                            <div className="vdolist">
+                                <img src={sky} onClick={() => changeVideo("vdo1")}></img>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 

@@ -37,6 +37,14 @@
             }
         },
         "img_product": "img_product/PEPSI.png",
+        "vdo_product": {
+            "vdo1": "vdo/OREO.mp4",
+            "vdo2": "vdo/vdo.mp4"
+        },
+        "poster": {
+            "poster1": "poster/sky.jpg",
+            "poster2": "poster/lily.jpg"
+        },
         "background_color": "rgba(0, 101, 195, 0.9)"
     },
     {
@@ -77,6 +85,7 @@
             }
         },
         "img_product": "img_product/PEPSI ZERO SUGAR.png",
+        "vdo_product": "vdo/SCOTT.mp4",
         "background_color": "rgba(0, 0, 0, 0.9)"
     },
     {
@@ -117,6 +126,7 @@
             }
         },
         "img_product": "img_product/DIET PEPSI.png",
+        "vdo_product": "vdo/Hi-Q1.mp4",
         "background_color": "rgba(135, 135, 135, 0.9)"
     },
     {
@@ -157,6 +167,7 @@
             }
         },
         "img_product": "img_product/PEPSI MANGO.png",
+        "vdo_product": "vdo/BRAND.mp4",
         "background_color": "rgba(255, 143, 28, 0.9)"
     },
     {

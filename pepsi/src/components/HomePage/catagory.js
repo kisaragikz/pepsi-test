@@ -16,7 +16,7 @@ const Catagory = ()=>{
                         <div className="image-wrapper">
                             <img src="https://images.unsplash.com/photo-1554620121-59e7f3f6e3a4?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
                         </div>
-                        <h2 className="title" >Nightlife</h2>
+                        <h2 className="title" >Oreo</h2>
                     </div>
                 </Link>
                 <Link to={{ pathname : `/product/${1}`,}}>
@@ -24,7 +24,7 @@ const Catagory = ()=>{
                         <div className="image-wrapper">
                             <img src="https://images.unsplash.com/photo-1523806762236-1d3a6b7eb3fd?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
                         </div>
-                        <h2 className="title" >Quiet Time</h2>
+                        <h2 className="title" >Scott</h2>
                     </div>
                 </Link>
                 <Link to={{ pathname : `/product/${2}`,}}>
@@ -32,7 +32,7 @@ const Catagory = ()=>{
                         <div className="image-wrapper">
                             <img src="https://images.unsplash.com/photo-1548008116-bcfec1f4c812?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
                         </div>
-                        <h2 className="title" >Surf's Up!</h2>
+                        <h2 className="title" >Hi-Q</h2>
                     </div>
                 </Link>
                 <Link to={{ pathname : `/product/${3}`,}}>
@@ -40,7 +40,7 @@ const Catagory = ()=>{
                         <div className="image-wrapper">
                             <img src="https://images.unsplash.com/photo-1569335048491-5fb94951e885?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
                         </div>
-                        <h2 className="title" >Day Hikes</h2>
+                        <h2 className="title" >Brand</h2>
                     </div>
                 </Link>
             </div>

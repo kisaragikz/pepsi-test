@@ -1,10 +1,11 @@
 import "./vdotest.css";
-import vdo from './vdo/vdo.mp4'
+import vdo from './vdo/Hall.mp4'
+import sky from './vdo/sky.jpg'
 const vdotest = () => {
   return (
     <div className="testvdo-container">
         <div className="testvdo-box">
-            <video className="testvdo" loop muted controls playsInline poster="vdo/poster.png">
+            <video className="testvdo" loop muted controls playsInline poster={sky}>
                 <source src={vdo}></source>
             </video>
         </div>
