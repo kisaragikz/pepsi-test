@@ -6,6 +6,7 @@ import fantabr from './img/fanta.png'
 import { Link } from "react-router-dom";
 import Navbar from './navbar';
 import {React,useState,useEffect} from "react"
+import catagory_img from './img/Catagory3.jpg'
 const Catagory4 = ()=>{
     window.scroll(0,0);
         // let {page} = useParams();
@@ -28,7 +29,7 @@ const Catagory4 = ()=>{
                 <Link to={{ pathname : `/temp2_4_1`,}}>
                     <div className="promo2 promo-first" >
                         <div className="image-wrapper2">
-                            <img src="https://images.unsplash.com/photo-1554620121-59e7f3f6e3a4?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
+                            <img src={catagory_img}/>
                         </div>
                         <h2 className="title2" >Hi-Q</h2>
                     </div>
@@ -36,7 +37,7 @@ const Catagory4 = ()=>{
                 <Link to={{ pathname : `/temp2_4_2`,}}>
                     <div className="promo2 promo-second" >
                         <div className="image-wrapper2">
-                            <img src="https://images.unsplash.com/photo-1523806762236-1d3a6b7eb3fd?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
+                            <img src={catagory_img}/>
                         </div>
                         <h2 className="title2" >Halls</h2>
                     </div>
@@ -44,7 +45,7 @@ const Catagory4 = ()=>{
                 <Link to={{ pathname : `/temp2_4_3`,}}>
                     <div className="promo2 promo-third" >
                         <div className="image-wrapper2">
-                            <img src="https://images.unsplash.com/photo-1548008116-bcfec1f4c812?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
+                            <img src={catagory_img}/>
                         </div>
                         <h2 className="title2" >Scott</h2>
                     </div>
