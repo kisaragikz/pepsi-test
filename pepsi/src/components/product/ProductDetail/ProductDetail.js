@@ -65,10 +65,10 @@ const ProductDetail = () =>{
                 {/* <div className="detail-background" style={{backgroundColor:Item[page].background_color}}>
                 </div> */}
                 <Navbar />
-                    <Link className="previousPage" to='/#catagory-section' onClick={handleClick}>
-                        <div className="previoustext">Back</div>
-                    </Link>
-                    
+                <Link className="previousPage" to='/#catagory-section' onClick={handleClick}>
+                    <div className="previoustext">Back</div>
+                </Link>
+                
                 <div className="detail-container" style={{transition: shouldTransition ? "all 0.75s" : "",opacity: `${translate}`}}>
                     {/* <div className="detail-left">
                         <h1>{Item[page].name}</h1>

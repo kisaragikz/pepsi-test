@@ -14,7 +14,7 @@
     width: 100%;
     aspect-ratio: 16/9;
     overflow: hidden;
-    
+
 }
 
 .testvdo {
@@ -39,23 +39,23 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  
+}
+
 .testcontent {
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-  }
-  
+}
+
 .testcontent h1 {
     font-size: 12rem;
     margin-bottom: 1rem;
-  }
-  
+}
+
 .testcontent p {
     font-size: 6rem;
     margin-bottom: 2rem;
-  }
-  
+}
+
 .testbutton {
     height: 64px;
     padding: 0rem 3rem;
@@ -67,8 +67,8 @@
     transition: background-color 0.3s ease;
     align-items: center;
     justify-content: center;
-  }
-  
+}
+
 .testbutton:hover {
     background-color: rgba(255, 255, 255, 0.4);
-  }
+}

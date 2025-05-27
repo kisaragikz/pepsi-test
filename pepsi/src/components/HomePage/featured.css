@@ -1,6 +1,6 @@
 .featured-container{
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     background-color: black;
     overflow-x: hidden;
 }
@@ -15,14 +15,15 @@
     color: white;
     background-color: black;
 }
-/* .featured-bot{
-    height: 30vh;
+.featured-bot{
+    height: 20vh;
     display: flex;
-} */
+}
 .boxf{
     width: 25%;
+    align-self: center;
 }
-.schweppes{
+/* .schweppes{
     background-color: black;
 }
 .pepsi{
@@ -33,7 +34,7 @@
 }
 .fanta{
     background-color: black;
-}
+} */
 .fimg{
     display: block;
     margin-left: auto;

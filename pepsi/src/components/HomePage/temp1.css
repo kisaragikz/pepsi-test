@@ -1,0 +1,242 @@
+.temp1-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.temp1-top-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    padding: 50px 75px 50px 75px;
+}
+
+.temp1-bottom-container {
+    height: 40vh;
+    padding: 0px 75px 50px 75px;
+
+}
+
+.temp1-bottom-upper {
+    height: 20vh;
+    display: flex;
+}
+
+.temp1-bottom-lower {
+    height: 20vh;
+    display: flex;
+}
+
+.temp1-top-left {
+    flex: 50%;
+    animation:backgroundAnimation 1.6s;
+}
+
+.temp1-top-right {
+    color: white;
+    flex: 50%;
+    align-content: center;
+    text-align: center;
+    animation:backgroundAnimation 1.8s;
+}
+
+.temp1-vdo-box {
+    /* top: 10px;
+    left: -10px; */
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    align-content: center;
+
+}
+
+.temp1-vdo {
+    display: block;
+    position: relative;
+    aspect-ratio: 16/9;
+    width: 600px;
+    object-fit: contain;
+    z-index: 1;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+    left: 15%;
+}
+
+.temp1-boxf {
+    width: 25%;
+    align-self: center;
+}
+
+.temp1-fimg {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.temp1-fimg:hover {
+    scale: 1.2;
+}
+
+.popup {
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-inner {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  animation:popup 1s;
+}
+
+/* ซ้ายเป็นรูปภาพ กว้างครึ่งนึง */
+.popup__photo {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.popup__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* รูปเต็มกรอบโดยไม่บิด */
+}
+
+/* ขวาเป็นข้อความ กว้างครึ่งนึง */
+.popup__text {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #0A0A0A;
+}
+
+.popup__text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.popup__text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #686868;
+}
+
+/* ปุ่มปิด */
+.popup__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: black;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10;
+}
+
+@keyframes  popup{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.temppreviousPage{
+    position: absolute;
+    margin-top: 10px;
+    left: 70px;
+    top: 50%;
+    height: 24px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    /* background: url("../ProductDetail/img_products/left_arrow.png"); */
+    background-size: cover;
+    background-position: center;
+    /* animation:objectAnimation 1.3s .5s backwards; */
+    animation:backgroundAnimation1 1.2s;
+    transition: all 0.5s ease;
+    
+}
+.temppreviousPage:hover{
+    transform: translate(5px, -5px);
+    scale: 1.2;
+}
+.tempprevioustext {
+    color: white;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+/* .tempprevioustext:hover {
+    transform: translate(5px, -5px);
+    scale: 1.2;
+} */
+
+.tempnextPage{
+    position: absolute;
+    margin-top: 10px;
+    right: 70px;
+    top: 50%;
+    height: 24px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    /* background: url("../ProductDetail/img_products/left_arrow.png"); */
+    background-size: cover;
+    background-position: center;
+    /* animation:objectAnimation 1.3s .5s backwards; */
+    animation:backgroundAnimation1 1.2s;
+    
+}
+.tempnexttext {
+    color: white;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+.tempnexttext:hover {
+    transform: translate(5px, -5px);
+    scale: 1.2;
+}
+
+.temp1-boxf:nth-child(1) {
+    animation:backgroundAnimation 1s;
+}
+.temp1-boxf:nth-child(2) {
+    animation:backgroundAnimation 1.2s;
+}
+.temp1-boxf:nth-child(3) {
+    animation:backgroundAnimation 1.4s;
+}
+.temp1-boxf:nth-child(4) {
+    animation:backgroundAnimation 1.6s;
+}
+.temp1-boxf:nth-child(5) {
+    animation:backgroundAnimation 1.8s;
+}

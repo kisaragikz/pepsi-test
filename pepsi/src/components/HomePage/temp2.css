@@ -1,0 +1,76 @@
+.temp2-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+    /* padding: 100px; */
+}
+.temp2-top{
+    height: 60vh;
+    flex-direction: row;
+    padding: 100px 150px 100px 150px;
+}
+.temp2-bottom-upper {
+    height: 40vh;
+    display: flex;
+}
+.temp2-bottom-lower {
+    height: 40vh;
+    display: flex;
+}
+.temp2-text{
+    width: 100%;
+    text-align: center;
+    font-size: 8vh;
+    color: white;
+    background-color: black;
+}
+.temp2-bot{
+    height: 20vh;
+    display: flex;
+}
+.temp2-boxf{
+    width: 25%;
+    align-self: center;
+}
+/* .schweppes{
+    background-color: black;
+}
+.pepsi{
+    background-color: black;
+}
+.sprite{
+    background-color: black;
+}
+.fanta{
+    background-color: black;
+} */
+.temp2-fimg{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.temp2-fimg:hover{
+    scale: 1.2;
+}
+
+.temp2-boxf:nth-child(1) {
+    animation:backgroundAnimation 1s;
+}
+.temp2-boxf:nth-child(2) {
+    animation:backgroundAnimation 1.2s;
+}
+.temp2-boxf:nth-child(3) {
+    animation:backgroundAnimation 1.4s;
+}
+.temp2-boxf:nth-child(4) {
+    animation:backgroundAnimation 1.6s;
+}
+.temp2-boxf:nth-child(5) {
+    animation:backgroundAnimation 1.8s;
+}
