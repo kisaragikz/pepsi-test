@@ -39,9 +39,18 @@ const Temp1_1_3 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    <div className='temp1-top-right-left'>
+                        <h1>Kickstart your day<br></br>with BRAND's</h1>
+                        <br></br>
+                        <h2>Make BRAND's the first thing they reach for smarter morning.</h2>
+                    </div>
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; 3D OOH (from STB to final)</p>
+                        <p>- &nbsp; Static OOH</p>
+                        <p>- &nbsp; KOLs VDO</p>
+                        <p>- &nbsp; POSM</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>

@@ -39,9 +39,17 @@ const Temp1_1_4 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    <div className='temp1-top-right-left'>
+                        <h1>Halls XS with<br></br>Jeff Satur</h1>
+                        <br></br>
+                        <h2>Halls XS welcomes Jeff Satur as its new presenter, bringing fresh energy to connect with Gen Z and their lifestyle..</h2>
+                    </div>
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; 3D OOH (adapt from TVC)</p>
+                        <p>- &nbsp; Online Ecom </p>
+                        <p>- &nbsp; POSM</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>

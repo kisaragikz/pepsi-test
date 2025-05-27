@@ -39,9 +39,19 @@ const Temp1_1_2 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    <div className='temp1-top-right-left'>
+                        <h1>Hi-Q UHT,<br></br>the No.1 brand</h1>
+                        <br></br>
+                        <h2>Establish Hi-Q UHT as the No.1 brand in consumers' minds.</h2>
+                    </div>
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; Master KV</p>
+                        <p>- &nbsp; 3D OOH</p>
+                        <p>- &nbsp; CGI</p>
+                        <p>- &nbsp; Giftbox to KOLs</p>
+                        <p>- &nbsp; Calendar</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>

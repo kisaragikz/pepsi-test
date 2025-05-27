@@ -35,10 +35,32 @@
 
 .temp1-top-right {
     color: white;
+    display: flex;
     flex: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
     align-content: center;
-    text-align: center;
+    text-align: start;
     animation:backgroundAnimation 1.8s;
+}
+.temp1-top-right-left {
+    flex: 50%;
+}
+.temp1-top-right-left h1 {
+    font-size: 30px;
+}
+.temp1-top-right-left h2 {
+    font-size: 16px;
+    padding-right: 30px;
+}
+.temp1-top-right-right {
+    flex: 50%;
+}
+.temp1-top-right-right h3 {
+    font-size: 24px;
+}
+.temp1-top-right-right p {
+    padding-left: 25px;
 }
 
 .temp1-vdo-box {

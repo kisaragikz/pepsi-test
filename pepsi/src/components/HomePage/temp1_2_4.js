@@ -39,9 +39,19 @@ const Temp1_2_4 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    <div className='temp1-top-right-left'>
+                        <h1>Drink BRAND's<br></br>Scan Code</h1>
+                        <br></br>
+                        <h2>The “Drink BRAND, Scan the Code” campaign aims to build daily drinking habits while boosting engagement.By scanning the unique code inside each bottle, consumers enjoy a fun, rewarding experience.
+</h2>
+                    </div>
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; Master KV</p>
+                        <p>- &nbsp; VDO opening campaign</p>
+                        <p>- &nbsp; Online VDO</p>
+                        <p>- &nbsp; Banner</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>

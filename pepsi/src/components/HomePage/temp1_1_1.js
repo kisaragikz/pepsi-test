@@ -40,9 +40,18 @@ const Temp1_1_1 = () => {
                         </div>
                     </div>
                     <div className='temp1-top-right'>
-                        <h1>WELCOME</h1>
-                        <h2>LET'S GET STARTED</h2>
-                        <h3>CHECK OUT THE LATEST DROP</h3>
+                        <div className='temp1-top-right-left'>
+                            <h1>The Epic OREO<br></br>Space Dunk</h1>
+                            <br></br>
+                            <h2>Turn the Oreo dunk into the most remarkable dunk in the galaxy.</h2>
+                        </div>
+                        <div className='temp1-top-right-right'>
+                            <h3>What we do :</h3>
+                            <p>- &nbsp; KV local adaptation</p>
+                            <p>- &nbsp; KV promotion</p>
+                            <p>- &nbsp; Instore POSM</p>
+                            <p>- &nbsp; OOH CTW (from STB to final)</p>
+                        </div>
                     </div>
                 </div>
                 <div className='temp1-bottom-container'>

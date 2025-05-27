@@ -39,9 +39,19 @@ const Temp1_2_1 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    <div className='temp1-top-right-left'>
+                        <h1>Hi-Q S-Kool<br></br>NDP Launch</h1>
+                        <br></br>
+                        <h2>NPD Lauch - Hi-Q UHT - tailored nutrition for school-age children.</h2>
+                    </div>
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; Master KV (AI Generated)</p>
+                        <p>- &nbsp; 3D OOH (from STB to final)</p>
+                        <p>- &nbsp; 3D Character</p>
+                        <p>- &nbsp; POSM</p>
+                        <p>- &nbsp; Online & Ecom</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>
