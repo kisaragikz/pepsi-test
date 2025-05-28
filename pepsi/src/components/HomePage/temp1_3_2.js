@@ -87,9 +87,18 @@ const Temp1_3_2 = ()=>{
                     </div>
                 </div>
                 <div className='temp1-top-right'>
-                    <h1>WELCOME</h1>
-                    <h2>LET'S GET STARTED</h2>
-                    <h3>CHECK OUT THE LATEST DROP</h3>
+                    {/* <div className='temp1-top-right-left'>
+                        <h1>Halls XS<br></br>New Flavour</h1>
+                        <br></br>
+                        <h2>Introducing Halls Cola & Lemon Soda — a refreshingly cool new flavor that chills you to the core.</h2>
+                    </div> */}
+                    <div className='temp1-top-right-right'>
+                        <h3>What we do :</h3>
+                        <p>- &nbsp; Concept Development</p>
+                        <p>- &nbsp; Design PKG AW</p>
+                        <p>- &nbsp; Master KV</p>
+                        <p>- &nbsp; Online VDO</p>
+                    </div>
                 </div>
             </div>
             <div className='temp1-bottom-container'>

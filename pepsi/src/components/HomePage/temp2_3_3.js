@@ -2,8 +2,14 @@ import './temp2.css'
 import Navbar from './navbar';
 import React, { useState } from 'react';
 import { Link, useParams } from "react-router-dom"
-import brandimg5 from './img/brandimg5.png';
-import brandimg6 from './img/brandimg6.png';
+import hiqimg7 from './img/hiqimg7.png';
+import hiqimg8 from './img/hiqimg8.png';
+import hiqimg9 from './img/hiqimg9.png';
+import hiqimg10 from './img/hiqimg10.png';
+import hiqimg11 from './img/hiqimg11.png';
+import hiqimg12 from './img/hiqimg12.png';
+import hiqimg13 from './img/hiqimg13.png';
+import hiqimg14 from './img/hiqimg13.png';
 
 const Temp2_3_3 = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -13,12 +19,18 @@ const Temp2_3_3 = () => {
         };
     
         const boxData = [
-            { img: brandimg5, popupImg: brandimg5, title: "Oreo", desc: "This is Oreo." },
-            { img: brandimg6, popupImg: brandimg6, title: "Oreo", desc: "This is Oreo." },
+            { img: hiqimg7, popupImg: hiqimg7, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg8, popupImg: hiqimg8, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg9, popupImg: hiqimg9, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg10, popupImg: hiqimg10, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg11, popupImg: hiqimg11, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg12, popupImg: hiqimg12, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg13, popupImg: hiqimg13, title: "Oreo", desc: "This is Oreo." },
+                        { img: hiqimg14, popupImg: hiqimg14, title: "Oreo", desc: "This is Oreo." },
            
         ];
-        const boxDataTop = boxData.slice(0, 5);
-        // const boxDataBottom = boxData.length > 3 ? boxData.slice(3) : [];
+        const boxDataTop = boxData.slice(0, 4);
+        const boxDataBottom = boxData.length > 4 ? boxData.slice(4) : [];
     
         const renderBoxSection = (data, offset = 0) => (
             <div className='temp2-bottom-upper'>
@@ -60,6 +72,7 @@ const Temp2_3_3 = () => {
             </Link>
             <div className='temp2-top'>
                 {renderBoxSection(boxDataTop, 0)}
+                {renderBoxSection(boxDataBottom, 4)}
             </div>
             {/* <div className='featured-bot'>
                 <div className='boxf schweppes'>
