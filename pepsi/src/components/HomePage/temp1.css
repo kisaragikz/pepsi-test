@@ -21,6 +21,8 @@
 .temp1-bottom-upper {
     height: 20vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .temp1-bottom-lower {
@@ -120,11 +122,11 @@
 }
 
 .popup-inner {
-  background-color: white;
+  background-color: black;
   width: 100%;
   height: 100%;
   display: flex;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   overflow: hidden;
   animation:popup 1s;
@@ -150,7 +152,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #0A0A0A;
+  color: white;
 }
 
 .popup__text h1 {
@@ -171,10 +173,10 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: black;
+  /* background: black; */
   color: white;
-  width: 2rem;
-  height: 2rem;
+  width: 5rem;
+  height: 5rem;
   text-align: center;
   line-height: 2rem;
   border-radius: 50%;

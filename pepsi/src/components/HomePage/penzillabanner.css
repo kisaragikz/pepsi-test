@@ -32,7 +32,7 @@
 .penzilla-right-mid-quote{
     color: white;
     position: relative;
-    top: 35%;
+    top: 25%;
     left: -10%;
     width: 100%;
     text-align: center;
@@ -47,6 +47,9 @@
     -webkit-text-fill-color: transparent;
     animation: shine 4s infinite linear alternate ;
 }
+/* .penzilla-right-mid-quote h2 {
+    font-size: 12px;
+} */
 @keyframes fade {
     0% {
         transform: translateY(-25%);
@@ -80,7 +83,7 @@
   }
 }
 .penzilla-right-mid-quote h2 {
-    font-size: 7vh;
+    font-size: 3vh;
 }
 .penzilla-right-mid-quote h3 {
     font-size: 3vh;

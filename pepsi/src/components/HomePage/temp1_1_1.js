@@ -1,7 +1,6 @@
 import Navbar from './navbar';
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import vdo from './vdo/Hall.mp4';
 import sky from './vdo/sky.jpg';
 import './temp1.css';
 import pepsibr from './img/pepsi.png';
@@ -9,7 +8,13 @@ import spritebr from './img/sprite.png';
 import fantabr from './img/fanta.png';
 import danone from './img/danone.png';
 import mondelez from './img/mondelez.png';
-import oreo2 from './img/oreo2.jpg';
+import oreovdo1 from './vdo/oreovdo1.mp4';
+import oreoimg1 from './img/oreoimg1.png';
+import oreoimg2 from './img/oreoimg2.png';
+import oreoimg3 from './img/oreoimg3.png';
+import oreoimg4 from './img/oreoimg4.png';
+import oreoimg5 from './img/oreoimg5.png';
+import meow2 from './img/meow2.jpg';
 
 const Temp1_1_1 = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -19,16 +24,19 @@ const Temp1_1_1 = () => {
     };
 
     const boxData = [
-        { img: danone, popupImg: oreo2, title: "Danone", desc: "This is Danone." },
-        { img: mondelez, popupImg: "https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8", title: "Mondelez", desc: "This is Mondelez." },
-        { img: pepsibr, popupImg: "https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8", title: "Pepsi", desc: "This is Pepsi." },
-        { img: spritebr, popupImg: "https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8", title: "Sprite", desc: "This is Sprite." },
-        { img: fantabr, popupImg: "https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8", title: "Fanta", desc: "This is Fanta." },
+        { img: oreoimg1, popupImg: oreoimg1, title: "Oreo", desc: "This is Oreo." },
+        { img: oreoimg2, popupImg: oreoimg2, title: "Oreo", desc: "This is Oreo." },
+        { img: oreoimg3, popupImg: oreoimg3, title: "Oreo", desc: "This is Oreo." },
+        { img: oreoimg4, popupImg: oreoimg4, title: "Oreo", desc: "This is Oreo." },
+        { img: oreoimg5, popupImg: oreoimg5, title: "Oreo", desc: "This is Oreo." },
+       
     ];
+    const boxDataTop = boxData.slice(0, 5);
+    // const boxDataBottom = boxData.length > 3 ? boxData.slice(3) : [];
 
-    const renderBoxSection = (offset = 0) => (
+    const renderBoxSection = (data, offset = 0) => (
         <div className='temp1-bottom-upper'>
-            {boxData.map((box, index) => {
+            {data.map((box, index) => {
                 const realIndex = index + offset;
                 return (
                     <div className='temp1-boxf' key={realIndex}>
@@ -73,15 +81,15 @@ const Temp1_1_1 = () => {
                 <div className='temp1-top-container'>
                     <div className='temp1-top-left'>
                         <div className="temp1-vdo-box">
-                            <video className="temp1-vdo" loop muted controls playsInline poster={sky}>
-                                <source src={vdo}></source>
+                            <video className="temp1-vdo" loop muted controls playsInline >
+                                <source src={oreovdo1}></source>
                             </video>
                         </div>
                     </div>
                     <div className='temp1-top-right'>
                         <div className='temp1-top-right-left'>
-                            <h1>The Epic OREO<br />Space Dunk</h1>
-                            <br />
+                            <h1>The Epic OREO<br/>Space Dunk</h1>
+                            <br/>
                             <h2>Turn the Oreo dunk into the most remarkable dunk in the galaxy.</h2>
                         </div>
                         <div className='temp1-top-right-right'>
@@ -95,8 +103,8 @@ const Temp1_1_1 = () => {
                 </div>
 
                 <div className='temp1-bottom-container'>
-                    {renderBoxSection(0)}
-                    {renderBoxSection(5)}
+                    {renderBoxSection(boxDataTop, 0)}
+                    {/* {boxDataBottom.length > 0 && renderBoxSection(boxDataBottom, boxDataTop.length)} */}
                 </div>
             </div>
         </div>

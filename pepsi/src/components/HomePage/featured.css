@@ -5,8 +5,9 @@
     overflow-x: hidden;
 }
 .featured-top{
-    height: 20vh;
+    height: 10vh;
     display: flex;
+    padding-left: 75px;
 }
 .featured-text{
     width: 100%;
@@ -16,12 +17,21 @@
     background-color: black;
 }
 .featured-bot{
-    height: 20vh;
+    height: 10vh;
     display: flex;
+    padding-left: 75px;
 }
 .boxf{
+    display: flex;
+    color: white;
     width: 25%;
     align-self: center;
+    align-items: center;
+    gap: 10px;
+}
+.boxf p {
+    flex: 50%;
+    margin: 0;
 }
 /* .schweppes{
     background-color: black;
@@ -36,6 +46,8 @@
     background-color: black;
 } */
 .fimg{
+    /* flex: 10%; */
+    width: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
