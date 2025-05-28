@@ -9,11 +9,8 @@ import haiqvdo1 from './vdo/Hi-Q1.mp4'
 import sky from './vdo/sky.jpg'
 import './temp1.css'
 import oreovdo1 from './vdo/oreovdo1.mp4';
-import oreoimg1 from './img/oreoimg1.png';
-import oreoimg2 from './img/oreoimg2.png';
-import oreoimg3 from './img/oreoimg3.png';
-import oreoimg4 from './img/oreoimg4.png';
-import oreoimg5 from './img/oreoimg5.png';
+import hiqimg1 from './img/hiqimg1.png';
+import hiqimg2 from './img/hiqimg2.png';
 // SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Temp1_1_2 = () => {
@@ -24,11 +21,8 @@ const Temp1_1_2 = () => {
     };
 
     const boxData = [
-        { img: oreoimg1, popupImg: oreoimg1, title: "Oreo", desc: "This is Oreo." },
-        { img: oreoimg2, popupImg: oreoimg2, title: "Oreo", desc: "This is Oreo." },
-        { img: oreoimg3, popupImg: oreoimg3, title: "Oreo", desc: "This is Oreo." },
-        { img: oreoimg4, popupImg: oreoimg4, title: "Oreo", desc: "This is Oreo." },
-        { img: oreoimg5, popupImg: oreoimg5, title: "Oreo", desc: "This is Oreo." },
+        { img: hiqimg1, popupImg: hiqimg1, title: "Oreo", desc: "This is Oreo." },
+        { img: hiqimg2, popupImg: hiqimg2, title: "Oreo", desc: "This is Oreo." },
 
     ];
     const boxDataTop = boxData.slice(0, 5);

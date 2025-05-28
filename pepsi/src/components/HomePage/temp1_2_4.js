@@ -8,11 +8,11 @@ import { Link,useParams} from "react-router-dom"
 import vdo from './vdo/Hall.mp4'
 import sky from './vdo/sky.jpg'
 import './temp1.css'
-import pepsibr from './img/pepsi.png'
-import spritebr from './img/sprite.png'
-import fantabr from './img/fanta.png'
-import danone from './img/danone.png'
-import mondelez from './img/mondelez.png'
+import oreovdo1 from './vdo/oreovdo1.mp4';
+import brandimg5 from './img/brandimg5.png';
+import brandimg6 from './img/brandimg6.png';
+import brandimg7 from './img/brandimg7.png';
+import brandimg8 from './img/brandimg8.png';
 // SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Temp1_2_4 = ()=>{
@@ -23,11 +23,10 @@ const Temp1_2_4 = ()=>{
         };
     
         const boxData = [
-            { img: oreoimg1, popupImg: oreoimg1, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg2, popupImg: oreoimg2, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg3, popupImg: oreoimg3, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg4, popupImg: oreoimg4, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg5, popupImg: oreoimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg5, popupImg: brandimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg6, popupImg: brandimg6, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg7, popupImg: brandimg7, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg8, popupImg: brandimg8, title: "Oreo", desc: "This is Oreo." },
            
         ];
         const boxDataTop = boxData.slice(0, 5);

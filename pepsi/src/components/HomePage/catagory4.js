@@ -31,7 +31,7 @@ const Catagory4 = ()=>{
                         <div className="image-wrapper2">
                             <img src={catagory_img}/>
                         </div>
-                        <h2 className="title2" >Hi-Q</h2>
+                        <h2 className="title2" >Brand</h2>
                     </div>
                 </Link>
                 <Link to={{ pathname : `/temp2_4_2`,}}>
@@ -39,7 +39,7 @@ const Catagory4 = ()=>{
                         <div className="image-wrapper2">
                             <img src={catagory_img}/>
                         </div>
-                        <h2 className="title2" >Halls</h2>
+                        <h2 className="title2" >Ice Cream</h2>
                     </div>
                 </Link>
                 <Link to={{ pathname : `/temp2_4_3`,}}>
@@ -47,7 +47,7 @@ const Catagory4 = ()=>{
                         <div className="image-wrapper2">
                             <img src={catagory_img}/>
                         </div>
-                        <h2 className="title2" >Scott</h2>
+                        <h2 className="title2" >???</h2>
                     </div>
                 </Link>
             </div>

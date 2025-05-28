@@ -2,19 +2,64 @@ import './temp2.css'
 import Navbar from './navbar';
 import React, { useState } from 'react';
 import { Link, useParams } from "react-router-dom"
-import schweppesbr from './img/schweppes.png'
-import pepsibr from './img/pepsi.png'
-import spritebr from './img/sprite.png'
-import fantabr from './img/fanta.png'
-import danone from './img/danone.png'
-import mondelez from './img/mondelez.png'
+import brandimg9 from './img/brandimg9.png';
+import brandimg10 from './img/brandimg10.png';
+import brandimg11 from './img/brandimg11.png';
+import brandimg12 from './img/brandimg12.png';
+import brandimg13 from './img/brandimg13.png';
+import brandimg14 from './img/brandimg14.png';
 
 const Temp2_4_1 = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const togglePopup = () => {
-        setIsOpen(prev => !prev);
-    };
+    const [openIndex, setOpenIndex] = useState(null);
+    
+        const togglePopup = (index) => {
+            setOpenIndex(openIndex === index ? null : index);
+        };
+    
+        const boxData = [
+            { img: brandimg9, popupImg: brandimg9, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg10, popupImg: brandimg10, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg11, popupImg: brandimg11, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg12, popupImg: brandimg12, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg13, popupImg: brandimg13, title: "Oreo", desc: "This is Oreo." },
+            { img: brandimg14, popupImg: brandimg14, title: "Oreo", desc: "This is Oreo." },
+           
+        ];
+        const boxDataTop = boxData.slice(0, 3);
+        const boxDataBottom = boxData.length > 3 ? boxData.slice(3) : [];
+    
+        const renderBoxSection = (data, offset = 0) => (
+            <div className='temp2-bottom-upper'>
+                {data.map((box, index) => {
+                    const realIndex = index + offset;
+                    return (
+                        <div className='temp2-boxf' key={realIndex}>
+                            <img
+                                className='temp2-fimg'
+                                src={box.img}
+                                width="30%"
+                                onClick={() => togglePopup(realIndex)}
+                                alt={box.title}
+                            />
+                            {openIndex === realIndex && (
+                                <div className="popup" onClick={() => togglePopup(realIndex)}>
+                                    <div className="popup-inner" onClick={e => e.stopPropagation()}>
+                                        <div className="popup__photo">
+                                            <img src={box.popupImg} alt={box.title} />
+                                        </div>
+                                        {/* <div className="popup__text">
+                                            <h1>{box.title}</h1>
+                                            <p>{box.desc}</p>
+                                        </div> */}
+                                        <a className="popup__close" onClick={() => togglePopup(realIndex)}>X</a>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    );
+                })}
+            </div>
+        );
     return (
         <div className='temp2-container'>
             <Navbar />
@@ -22,210 +67,8 @@ const Temp2_4_1 = () => {
                 <div className="tempprevioustext">&lt;</div>
             </Link>
             <div className='temp2-top'>
-                <div className='temp2-bottom-upper'>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={danone} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={mondelez} width="45%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={pepsibr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={spritebr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={fantabr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className='temp2-bottom-lower'>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={danone} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={mondelez} width="45%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={pepsibr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={spritebr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                    <div className='temp2-boxf'>
-                        <img className='temp2-fimg' onClick={togglePopup} src={fantabr} width="30%"></img>
-                        {isOpen && (
-                            <div className={`popup ${isOpen ? 'visible' : 'hidden'}`} onClick={togglePopup}>
-                                <div className="popup-inner" onClick={e => e.stopPropagation()}>
-                                    <div className="popup__photo">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?...etc"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div className="popup__text">
-                                        <h1>Lorem ipsum dolor sit amet</h1>
-                                        <p>Lorem ipsum dolor sit amet...</p>
-                                    </div>
-                                    <a className="popup__close" onClick={togglePopup}>X</a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </div>
+                {renderBoxSection(boxDataTop, 0)}
+                {renderBoxSection(boxDataBottom, 3)}
             </div>
             {/* <div className='featured-bot'>
                 <div className='boxf schweppes'>

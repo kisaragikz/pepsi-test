@@ -14,7 +14,6 @@ import oreoimg2 from './img/oreoimg2.png';
 import oreoimg3 from './img/oreoimg3.png';
 import oreoimg4 from './img/oreoimg4.png';
 import oreoimg5 from './img/oreoimg5.png';
-import meow2 from './img/meow2.jpg';
 
 const Temp1_1_1 = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -53,10 +52,10 @@ const Temp1_1_1 = () => {
                                     <div className="popup__photo">
                                         <img src={box.popupImg} alt={box.title} />
                                     </div>
-                                    <div className="popup__text">
+                                    {/* <div className="popup__text">
                                         <h1>{box.title}</h1>
                                         <p>{box.desc}</p>
-                                    </div>
+                                    </div> */}
                                     <a className="popup__close" onClick={() => togglePopup(realIndex)}>X</a>
                                 </div>
                             </div>

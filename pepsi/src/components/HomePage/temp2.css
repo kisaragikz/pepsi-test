@@ -11,10 +11,14 @@
     padding: 100px 150px 100px 150px;
 }
 .temp2-bottom-upper {
+    justify-content: center;
     height: 40vh;
     display: flex;
+    display: flex;
+    align-items: center;
 }
 .temp2-bottom-lower {
+    justify-content: center;
     height: 40vh;
     display: flex;
 }
@@ -46,7 +50,7 @@
     background-color: black;
 } */
 .temp2-fimg{
-    width: 150px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -8,11 +8,13 @@ import { Link,useParams} from "react-router-dom"
 import vdo from './vdo/Hall.mp4'
 import sky from './vdo/sky.jpg'
 import './temp1.css'
-import pepsibr from './img/pepsi.png'
-import spritebr from './img/sprite.png'
-import fantabr from './img/fanta.png'
-import danone from './img/danone.png'
-import mondelez from './img/mondelez.png'
+import diarymilkimg1 from './img/diarymilkimg1.png';
+import diarymilkimg2 from './img/diarymilkimg2.png';
+import diarymilkimg3 from './img/diarymilkimg3.png';
+import diarymilkimg4 from './img/diarymilkimg4.png';
+import diarymilkimg5 from './img/diarymilkimg5.png';
+import diarymilkimg6 from './img/diarymilkimg6.png';
+import diarymilkimg7 from './img/diarymilkimg7.png';
 // SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Temp1_3_2 = ()=>{
@@ -23,15 +25,17 @@ const Temp1_3_2 = ()=>{
         };
     
         const boxData = [
-            { img: oreoimg1, popupImg: oreoimg1, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg2, popupImg: oreoimg2, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg3, popupImg: oreoimg3, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg4, popupImg: oreoimg4, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg5, popupImg: oreoimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg1, popupImg: diarymilkimg1, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg2, popupImg: diarymilkimg2, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg3, popupImg: diarymilkimg3, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg4, popupImg: diarymilkimg4, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg5, popupImg: diarymilkimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg6, popupImg: diarymilkimg6, title: "Oreo", desc: "This is Oreo." },
+            { img: diarymilkimg7, popupImg: diarymilkimg7, title: "Oreo", desc: "This is Oreo." },
            
         ];
-        const boxDataTop = boxData.slice(0, 5);
-        // const boxDataBottom = boxData.length > 3 ? boxData.slice(3) : [];
+        const boxDataTop = boxData.slice(0, 4);
+        const boxDataBottom = boxData.length > 4 ? boxData.slice(4) : [];
     
         const renderBoxSection = (data, offset = 0) => (
             <div className='temp1-bottom-upper'>
@@ -90,6 +94,7 @@ const Temp1_3_2 = ()=>{
             </div>
             <div className='temp1-bottom-container'>
                 {renderBoxSection(boxDataTop, 0)}
+                {renderBoxSection(boxDataBottom, 4)}
             </div>
         </div>
         

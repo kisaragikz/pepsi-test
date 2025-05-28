@@ -8,11 +8,13 @@ import { Link,useParams} from "react-router-dom"
 import hallvdo1 from './vdo/Hall1.mp4'
 import sky from './vdo/sky.jpg'
 import './temp1.css'
-import pepsibr from './img/pepsi.png'
-import spritebr from './img/sprite.png'
-import fantabr from './img/fanta.png'
-import danone from './img/danone.png'
-import mondelez from './img/mondelez.png'
+import oreovdo1 from './vdo/oreovdo1.mp4';
+import hallimg1 from './img/hallimg1.png';
+import hallimg2 from './img/hallimg2.png';
+import hallimg3 from './img/hallimg3.png';
+import hallimg4 from './img/hallimg4.png';
+import hallimg5 from './img/hallimg5.png';
+import hallimg6 from './img/hallimg6.png';
 // SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Temp1_1_4 = ()=>{
@@ -23,14 +25,15 @@ const Temp1_1_4 = ()=>{
         };
     
         const boxData = [
-            { img: oreoimg1, popupImg: oreoimg1, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg2, popupImg: oreoimg2, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg3, popupImg: oreoimg3, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg4, popupImg: oreoimg4, title: "Oreo", desc: "This is Oreo." },
-            { img: oreoimg5, popupImg: oreoimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg1, popupImg: hallimg1, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg2, popupImg: hallimg2, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg3, popupImg: hallimg3, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg4, popupImg: hallimg4, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg5, popupImg: hallimg5, title: "Oreo", desc: "This is Oreo." },
+            { img: hallimg6, popupImg: hallimg6, title: "Oreo", desc: "This is Oreo." },
     
         ];
-        const boxDataTop = boxData.slice(0, 5);
+        const boxDataTop = boxData.slice(0, 6);
         // const boxDataBottom = boxData.length > 3 ? boxData.slice(3) : [];
     
         const renderBoxSection = (data, offset = 0) => (
